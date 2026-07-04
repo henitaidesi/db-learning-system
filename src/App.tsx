@@ -537,15 +537,15 @@ function App() {
                     {/* Text Area for Short / SQL */}
                     {(currentQuestion.type === 'short' || currentQuestion.type === 'sql') && (
                       <div style={{display: 'flex', flexDirection: 'column', gap: '1.5rem'}}>
-                        {!showAnswer ? (
-                          <>
-                            <textarea 
+                        <textarea 
                               className="styled-textarea" 
                               placeholder={currentQuestion.type === 'sql' ? "编写 SQL 语句...\n\n例如：\nSELECT * FROM students WHERE age > 20;" : "输入你的解答...\n\n写下你的思路，与标准答案对比才能印象深刻。"}
                               value={textAnswer}
                               onChange={(e) => setTextAnswer(e.target.value)}
+                              disabled={showAnswer}
                             />
-                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                            {!showAnswer && (
+                              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                               <button className="btn btn-outline" onClick={handleRevealAnswer} style={{alignSelf: 'flex-start'}}>
                                 提交对比标准答案
                               </button>
@@ -562,8 +562,8 @@ function App() {
                                 <Lightbulb size={14} /> 直接看解析
                               </button>
                             </div>
-                          </>
-                        ) : (
+                            )}
+                        {showAnswer && (
                           <div className="reference-answer">
                             <h3 style={{color: 'var(--success)', marginBottom: '1rem', display: 'flex', alignItems:'center', gap:'0.75rem', fontSize: '1.2rem'}}>
                               <CheckCircle2 size={22}/> 官方参考答案
