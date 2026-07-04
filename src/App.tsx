@@ -545,9 +545,23 @@ function App() {
                               value={textAnswer}
                               onChange={(e) => setTextAnswer(e.target.value)}
                             />
-                            <button className="btn btn-outline" onClick={handleRevealAnswer} style={{alignSelf: 'flex-start'}}>
-                              提交对比标准答案
-                            </button>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                              <button className="btn btn-outline" onClick={handleRevealAnswer} style={{alignSelf: 'flex-start'}}>
+                                提交对比标准答案
+                              </button>
+                              <button 
+                                onClick={handleRevealAnswer} 
+                                style={{
+                                  background: 'none', border: 'none', color: 'var(--text-secondary)', 
+                                  fontSize: '0.85rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.25rem',
+                                  padding: '0.5rem', opacity: 0.7, transition: 'all 0.2s'
+                                }}
+                                onMouseEnter={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.color = 'var(--accent-primary)'; }}
+                                onMouseLeave={(e) => { e.currentTarget.style.opacity = '0.7'; e.currentTarget.style.color = 'var(--text-secondary)'; }}
+                              >
+                                <Lightbulb size={14} /> 直接看解析
+                              </button>
+                            </div>
                           </>
                         ) : (
                           <div className="reference-answer">
