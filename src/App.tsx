@@ -16,11 +16,12 @@ const renderLatexText = (text: string) => {
       // Bypass JS string escaping and KaTeX parsing issues by using direct Unicode math symbols
       math = math
         .replace(/\r/g, '') // Remove stray carriage returns
-        .replace(/\\ightarrow/g, ' → ')
-        .replace(/\\rightarrow/g, ' → ')
-        .replace(/\\to/g, ' → ')
-        .replace(/\\subset/g, ' ⊂ ')
-        .replace(/\\notin/g, ' ∉ ');
+        .replace(/\\ightarrow/g, ' \\rightarrow ')
+        .replace(/\\to/g, ' \\rightarrow ')
+        .replace(/\\subset/g, ' \\subset ')
+        .replace(/\\notin/g, ' \\notin ')
+        // Fix PDF extraction artifacts where spaces after macros are lost, e.g., \timesS -> \times S
+        .replace(/\\(times|pi|sigma|bowtie|rho|mu|alpha|beta)([a-zA-Z])/g, '\\$1 $2');
       return <InlineMath key={i} math={math} />;
     }
     
