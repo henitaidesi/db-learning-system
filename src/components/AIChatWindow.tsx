@@ -261,6 +261,30 @@ ${currentQuestion?.explanation ? `【正确答案及解析】：\n${currentQuest
                   <Key size={16} /> 配置 AI 导师 (Gemini)
                 </h4>
                 
+                <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>快捷预设</label>
+                <select 
+                  className="styled-input" 
+                  style={{ width: '100%', marginBottom: '1rem', padding: '0.6rem', cursor: 'pointer' }}
+                  onChange={(e) => {
+                    const val = e.target.value;
+                    if (val === 'gemini') { setApiFormat('google'); setBaseUrl(''); setModelName('gemini-1.5-flash'); }
+                    else if (val === 'deepseek') { setApiFormat('openai'); setBaseUrl('https://api.deepseek.com/v1'); setModelName('deepseek-chat'); }
+                    else if (val === 'qwen') { setApiFormat('openai'); setBaseUrl('https://dashscope.aliyuncs.com/compatible-mode/v1'); setModelName('qwen-plus'); }
+                    else if (val === 'glm') { setApiFormat('openai'); setBaseUrl('https://open.bigmodel.cn/api/paas/v4'); setModelName('glm-4'); }
+                    else if (val === 'moonshot') { setApiFormat('openai'); setBaseUrl('https://api.moonshot.cn/v1'); setModelName('moonshot-v1-8k'); }
+                    else if (val === 'openai') { setApiFormat('openai'); setBaseUrl('https://api.openai.com/v1'); setModelName('gpt-4o-mini'); }
+                    else if (val === 'custom') { setApiFormat('openai'); setBaseUrl(''); setModelName(''); }
+                  }}
+                >
+                  <option value="custom">-- 选择官方/第三方预设 (或手动填写) --</option>
+                  <option value="gemini">Google Gemini 官方</option>
+                  <option value="deepseek">DeepSeek (深度求索)</option>
+                  <option value="qwen">通义千问 (阿里云)</option>
+                  <option value="glm">智谱 GLM-4</option>
+                  <option value="moonshot">Kimi (月之暗面)</option>
+                  <option value="openai">OpenAI 官方</option>
+                </select>
+
                 <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>API Key</label>
                 <input 
                   type="password"
@@ -271,42 +295,41 @@ ${currentQuestion?.explanation ? `【正确答案及解析】：\n${currentQuest
                   style={{ width: '100%', marginBottom: '1rem', padding: '0.6rem' }}
                 />
 
-                <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>代理/代理转发地址 (可选)</label>
+                <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>接口地址 (Base URL)</label>
                 <input 
                   type="text"
                   value={baseUrl}
                   onChange={(e) => setBaseUrl(e.target.value)}
-                  placeholder="例如: https://api.xxx.com/v1"
+                  placeholder="例如: https://api.deepseek.com/v1"
                   className="styled-input"
                   style={{ width: '100%', marginBottom: '1rem', padding: '0.6rem' }}
                 />
 
-                <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>接口格式</label>
+                <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>接口协议格式</label>
                 <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
                   <label style={{ fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: '0.25rem', cursor: 'pointer' }}>
                     <input type="radio" name="apiFormat" value="google" checked={apiFormat === 'google'} onChange={() => setApiFormat('google')} />
-                    Google 官方格式
+                    Google Gemini
                   </label>
                   <label style={{ fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: '0.25rem', cursor: 'pointer' }}>
                     <input type="radio" name="apiFormat" value="openai" checked={apiFormat === 'openai'} onChange={() => setApiFormat('openai')} />
-                    OpenAI 兼容格式
+                    OpenAI 兼容协议
                   </label>
                 </div>
 
-                <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>模型名称 (Model)</label>
+                <label style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 500 }}>模型名称 (Model Name)</label>
                 <input 
                   type="text"
                   value={modelName}
                   onChange={(e) => setModelName(e.target.value)}
-                  placeholder="默认: gemini-1.5-flash"
+                  placeholder="例如: deepseek-chat 或 gpt-4o-mini"
                   className="styled-input"
                   style={{ width: '100%', marginBottom: '1rem', padding: '0.6rem' }}
                 />
 
                 <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', lineHeight: 1.5 }}>
-                  如果你使用的是第三方中转服务（如 Packy 等），请选择 **OpenAI 兼容格式**。官方 API 请选择 **Google 官方格式**。<br/>
-                  如需使用 OpenAI 官方或其他模型，请修改模型名称（例如: gpt-4o-mini）。<br/><br/>
-                  注意：所有配置仅保存在你的浏览器本地。
+                  支持任何 OpenAI 兼容格式的 API (如 DeepSeek, Kimi, 各种中转等)。<br/>
+                  选择上面的“快捷预设”可以自动填入对应的接口地址和模型名称。
                 </p>
                 <button className="btn btn-primary" onClick={saveSettings} style={{ width: '100%' }}>
                   保存配置并返回
