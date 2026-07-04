@@ -1,0 +1,7031 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "question": "数据库系统的特点是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据共享、数据独立、减少数据冗余、避免数据不一致和加强了数据保护。"
+      },
+      {
+        "label": "B",
+        "text": "数据存储"
+      },
+      {
+        "label": "C",
+        "text": "数据应用"
+      },
+      {
+        "label": "D",
+        "text": "数据保密"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据共享",
+      "数据冗余",
+      "数据独立"
+    ],
+    "explanation": "数据库系统(DBS)具有数据结构化、数据的共享性高、冗余度低且易扩充、数据独立性高、数据由数据库管理系统(DBMS)统一管理和控制等基本特点。"
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "question": "在数据库中存储的是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据"
+      },
+      {
+        "label": "B",
+        "text": "数据模型"
+      },
+      {
+        "label": "C",
+        "text": "信息"
+      },
+      {
+        "label": "D",
+        "text": "数据以及数据之间的联系"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DB",
+      "联系"
+    ],
+    "explanation": "数据库不仅存储实体本身的数据，还存储实体与实体之间的内在联系。这是数据库与传统文件系统的关键区别之一。"
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "question": "数据库系统的数据独立性是指（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "不会因为数据的变化而影响应用程序"
+      },
+      {
+        "label": "B",
+        "text": "不会因为系统数据存储结构与数据逻辑结构的变化而影响应用程序"
+      },
+      {
+        "label": "C",
+        "text": "不会因为存储策略的变化而影响存储结构"
+      },
+      {
+        "label": "D",
+        "text": "不会因为某些存储结构的变化而影响其他的存储结构"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据独立",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据独立性包括物理独立性（物理结构改变不影响应用程序）和逻辑独立性（逻辑结构改变不影响应用程序），核心是数据与程序的解耦。"
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "question": "DB、DBMS和DBS三者之间的关系是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "DBS与DB和DBMS无关"
+      },
+      {
+        "label": "B",
+        "text": "DBMS包括DBS和DB"
+      },
+      {
+        "label": "C",
+        "text": "DBS包括DB和DBMS"
+      },
+      {
+        "label": "D",
+        "text": "DB包括DBMS和DBS"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "关系模型",
+      "DBS"
+    ],
+    "explanation": "数据库系统(DBS)是一个大概念，一般由数据库(DB)、数据库管理系统(DBMS)及其开发工具、应用系统和数据库管理员(DBA)构成。"
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "question": "数据库管理系统能实现对数据库中数据的查询、插入、修改和删除等操作。这种功能称为（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据操纵功能"
+      },
+      {
+        "label": "B",
+        "text": "数据管理功能"
+      },
+      {
+        "label": "C",
+        "text": "数据定义功能"
+      },
+      {
+        "label": "D",
+        "text": "数据控制功能"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据控制",
+      "数据定义",
+      "DBMS"
+    ],
+    "explanation": "DBMS提供数据操纵语言(DML)，用于实现数据的增、删、改、查等基本操作。数据定义(DDL)用于创建和修改表结构，数据控制(DCL)用于权限管理。"
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "question": "关系数据库中，实现表与表之间的联系是通过（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "实体完整性规则"
+      },
+      {
+        "label": "B",
+        "text": "值域"
+      },
+      {
+        "label": "C",
+        "text": "用户自定义完整性"
+      },
+      {
+        "label": "D",
+        "text": "参照完整性规则"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "用户自定义完整性",
+      "实体完整性",
+      "参照完整性"
+    ],
+    "explanation": "关系模型中，实体之间的联系通常由外键实现。参照完整性规则要求外键的取值必须要么为空，要么等于被参照表中某条记录的主键值，从而维护表间联系的一致性。"
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "question": "设关系R有K1个元组，关系S有K2个元组，则关系R和S进行笛卡尔积操作后的结果关系中的元组数目是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "K1+K2"
+      },
+      {
+        "label": "B",
+        "text": "≥ K1+K2"
+      },
+      {
+        "label": "C",
+        "text": "K1 × K2"
+      },
+      {
+        "label": "D",
+        "text": "≤ K1 × K2"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "笛卡尔积",
+      "元组"
+    ],
+    "explanation": "笛卡尔积是关系代数中的基本运算，两个集合的笛卡尔积的元组数量等于两个集合元组数量的乘积。"
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "question": "对关系的完整性约束通常包括（ ）三种。",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "实体完整性、属性完整性、关系完整性"
+      },
+      {
+        "label": "B",
+        "text": "实体完整性、参照完整性、用户定义完整性"
+      },
+      {
+        "label": "C",
+        "text": "实体完整性、属性完整性、用户定义完整性"
+      },
+      {
+        "label": "D",
+        "text": "实体完整性、属性完整性、参照完整性"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "用户自定义完整性",
+      "实体完整性",
+      "参照完整性"
+    ],
+    "explanation": "这是关系模型的三大完整性约束。实体完整性保证主键不为空；参照完整性保证外键引用的有效性；用户定义完整性是针对具体应用领域的数据限制。"
+  },
+  {
+    "id": 9,
+    "type": "choice",
+    "question": "在SQL中，建立视图用的命令是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "CREATE VIEW"
+      },
+      {
+        "label": "B",
+        "text": "CREATE TABLE"
+      },
+      {
+        "label": "C",
+        "text": "CREATE SCHEMA"
+      },
+      {
+        "label": "D",
+        "text": "CREATE INDEX"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "视图",
+      "索引"
+    ],
+    "explanation": "SQL的DDL语言中，CREATE用于创建对象。创建视图使用CREATE VIEW，创建表使用CREATE TABLE，创建索引使用CREATE INDEX。"
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "question": "数据库的完整性是指数据的（ ） (1)正确性 (2)合法性 (3)不被非法存取 (4)相容性 (5)不被恶意破坏",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "(1)和(3)"
+      },
+      {
+        "label": "B",
+        "text": "(2)和(5)"
+      },
+      {
+        "label": "C",
+        "text": "(1)和(4)"
+      },
+      {
+        "label": "D",
+        "text": "(2)和(4)"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "数据库的完整性是指数据的正确性(符合现实世界语义)和相容性(不同表间的数据一致)。防止非法存取或破坏属于数据库的安全性保障。"
+  },
+  {
+    "id": 11,
+    "type": "choice",
+    "question": "数据库设计的概念结构设计阶段，表示概念结构的常用方法和描述工具是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据流程分析法和数据流图"
+      },
+      {
+        "label": "B",
+        "text": "实体—联系方法和E-R图"
+      },
+      {
+        "label": "C",
+        "text": "结构分析法和模块结构图"
+      },
+      {
+        "label": "D",
+        "text": "层次分析法和层次结构图"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "概念模型",
+      "实体"
+    ],
+    "explanation": "概念结构设计是把现实世界抽象为信息世界，最经典和常用的工具就是陈品山(Peter Chen)提出的实体-联系模型（Entity-Relationship Model，即E-R图）。"
+  },
+  {
+    "id": 12,
+    "type": "choice",
+    "question": "应用数据库的主要目的是为了（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "解决保密问题"
+      },
+      {
+        "label": "B",
+        "text": "解决数据完整性问题"
+      },
+      {
+        "label": "C",
+        "text": "共享数据问题"
+      },
+      {
+        "label": "D",
+        "text": "解决数据量大的问题"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据共享",
+      "DB"
+    ],
+    "explanation": "数据库系统的核心价值在于数据的高效组织和集中管理，从而实现多用户、多应用之间的数据共享，并在此基础上减少数据冗余。"
+  },
+  {
+    "id": 13,
+    "type": "choice",
+    "question": "“一个事务中的诸操作要么全做，要么都不做”，这是事务的什么特性（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "原子性"
+      },
+      {
+        "label": "B",
+        "text": "一致性"
+      },
+      {
+        "label": "C",
+        "text": "隔离性"
+      },
+      {
+        "label": "D",
+        "text": "持久性"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "持久性",
+      "原子性",
+      "隔离性"
+    ],
+    "explanation": "事务具有ACID特性。原子性(Atomicity)指事务不可分割；一致性(Consistency)指事务前后数据库均保持合法状态；隔离性(Isolation)指并发事务互不干扰；持久性(Durability)指事务永久生效。"
+  },
+  {
+    "id": 14,
+    "type": "choice",
+    "question": "采用数据库镜像技术，主要是为了有效解决（ ）的问题。",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "复制故障"
+      },
+      {
+        "label": "B",
+        "text": "系统故障"
+      },
+      {
+        "label": "C",
+        "text": "事务故障"
+      },
+      {
+        "label": "D",
+        "text": "介质故障"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "数据库镜像",
+      "事务",
+      "DB"
+    ],
+    "explanation": "数据库镜像通过实时复制数据库到另一存储介质，当主数据库发生介质故障（如磁盘损坏）时，能迅速切换到镜像数据库，保证系统的可用性。"
+  },
+  {
+    "id": 15,
+    "type": "choice",
+    "question": "用如下的SQL语句创建一个Student表：CREATE TABLE Student (SNO Char(4) NOT NULL, NAME Char(8) NOT NULL, SEX Char(2), AGE INT)，可以插入到Student表中的元组是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "('0731', '李大明', '男', 23)"
+      },
+      {
+        "label": "B",
+        "text": "('0731', '李大明', 23, '男')"
+      },
+      {
+        "label": "C",
+        "text": "(NULL, '李大明', '男', '23')"
+      },
+      {
+        "label": "D",
+        "text": "('0731', NULL, '男', 23)"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "元组"
+    ],
+    "explanation": "SNO(Char(4), 不为空), NAME(Char(8), 不为空), SEX(Char(2)), AGE(INT)。选项A中各项数据类型和非空约束均匹配；选项B年龄位置错误；选项C的SNO为空；选项D的NAME为空。"
+  },
+  {
+    "id": 16,
+    "type": "choice",
+    "question": "在关系代数运算中，五种基本运算为（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "并、差、选择、投影、连接"
+      },
+      {
+        "label": "B",
+        "text": "并、交、选择、投影、笛卡尔积"
+      },
+      {
+        "label": "C",
+        "text": "并、差、选择、投影、笛卡尔积"
+      },
+      {
+        "label": "D",
+        "text": "并、除、投影、笛卡尔积、选择"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "笛卡尔积",
+      "关系代数"
+    ],
+    "explanation": "关系代数的五种基本运算是集合的并、差、笛卡尔积，以及专门的关系运算选择和投影。其他运算如交、连接、除等均可由这五种基本运算导出。"
+  },
+  {
+    "id": 17,
+    "type": "choice",
+    "question": "SQL Server 安装程序创建4个系统数据库，下列哪个不是（ ）\n(注：原卷此处OCR识别有缺失，按解析还原提供)",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "master"
+      },
+      {
+        "label": "B",
+        "text": "model"
+      },
+      {
+        "label": "C",
+        "text": "(原卷缺失该选项)"
+      },
+      {
+        "label": "D",
+        "text": "msdb"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "DB",
+      "属性"
+    ],
+    "explanation": "SQL Server常见的四个系统数据库是master、model、msdb、tempdb。此题由于原卷OCR缺失导致选项有误，解题时应当注意系统数据库的构成，非这四者的选项即为正确答案。"
+  },
+  {
+    "id": 18,
+    "type": "choice",
+    "question": "下列SQL语句中，修改表结构的是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "ALTER"
+      },
+      {
+        "label": "B",
+        "text": "CREATE"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE"
+      },
+      {
+        "label": "D",
+        "text": "INSERT"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "属性"
+    ],
+    "explanation": "SQL中对表结构的操作属于DDL（数据定义语言），创建为CREATE，修改为ALTER，删除为DROP。UPDATE是对表数据的修改，属于DML（数据操纵语言）。"
+  },
+  {
+    "id": 19,
+    "type": "choice",
+    "question": "若事务T对数据R已加S锁，则对数据R（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "不能加S锁可以加X锁"
+      },
+      {
+        "label": "B",
+        "text": "可以加S锁不能加X锁"
+      },
+      {
+        "label": "C",
+        "text": "可以加S锁也可以加X锁"
+      },
+      {
+        "label": "D",
+        "text": "不能加任何锁"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "事务",
+      "S锁",
+      "X锁"
+    ],
+    "explanation": "S锁(共享锁)允许多个事务同时读取同一数据，因此其他事务可以继续加S锁。但在S锁释放前，任何事务都不能对该数据加X锁(排他锁)。"
+  },
+  {
+    "id": 20,
+    "type": "choice",
+    "question": "设有两个事务T1、T2，其并发操作（T1读取A=10，T2写入A=100，T1回滚...），下面描述正确的是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "该操作不存在问题"
+      },
+      {
+        "label": "B",
+        "text": "该操作不能重复读"
+      },
+      {
+        "label": "C",
+        "text": "该操作丢失修改"
+      },
+      {
+        "label": "D",
+        "text": "该操作读“脏”数据"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "不可重复读",
+      "并发控制",
+      "数据操纵"
+    ],
+    "explanation": "如果T2读取了T1修改但尚未提交的数据(A=100)，随后T1回滚导致A恢复原值(10)，那么T2读到的就是无效的“脏数据”。这是并发控制中需要避免的经典问题之一。"
+  },
+  {
+    "id": 21,
+    "type": "short",
+    "question": "常用的数据模型有：层次模型、【填空1】和【填空2】。",
+    "answer": "关系模型、网状模型",
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "逻辑模型"
+    ],
+    "explanation": "这是数据库领域最传统的三大逻辑数据模型。其中层次模型用树形结构表示，网状模型用有向图表示，关系模型用二维表表示，目前关系模型占据绝对主导地位。"
+  },
+  {
+    "id": 22,
+    "type": "short",
+    "question": "数据模型是由【填空1】、【填空2】和 完整性约束 三部分组成的。",
+    "answer": "数据结构、数据操作",
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBS"
+    ],
+    "explanation": "数据模型的三要素：数据结构描述系统的静态特性；数据操作描述系统的动态特性；完整性约束定义数据必须遵守的语义规则。"
+  },
+  {
+    "id": 23,
+    "type": "short",
+    "question": "在数据库的三级模式结构中，用来描述数据库中全体数据的全局逻辑结构和特征的是【填空1】。",
+    "answer": "模式",
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "三级模式",
+      "DB"
+    ],
+    "explanation": "数据库系统的三级模式分别是：外模式（用户视图）、模式（全局逻辑结构）和内模式（物理存储结构）。模式是三级结构的中心，体现了所有用户的共同数据需求。"
+  },
+  {
+    "id": 24,
+    "type": "short",
+    "question": "数据库系统的核心是【填空1】。",
+    "answer": "数据库管理系统（或DBMS）",
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "DBMS是位于用户应用和操作系统之间的一层数据管理软件，是数据库系统的核心，负责管理和控制数据库的全部操作。"
+  },
+  {
+    "id": 25,
+    "type": "short",
+    "question": "规范化数据库设计分为以下六个设计阶段：需求分析阶段、【填空1】、【填空2】、物理结构设计阶段、数据库实施阶段、数据库运行和维护阶段。",
+    "answer": "概念结构设计、逻辑结构设计",
+    "difficulty": "B",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "概念模型",
+      "规范化",
+      "DB"
+    ],
+    "explanation": "这是传统的数据库生命周期设计法。其中概念设计常使用E-R图，逻辑设计将E-R图转换为关系模式，物理设计则涉及存储结构和存取方法。"
+  },
+  {
+    "id": 26,
+    "type": "short",
+    "question": "删除表中记录用【填空1】语句，修改表结构用【填空2】语句。",
+    "answer": "DELETE、ALTER",
+    "difficulty": "A",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "元组"
+    ],
+    "explanation": "DELETE是DML语句，用于删除表中的元组(数据)；ALTER是DDL语句，用于修改表的设计结构（如增删列、修改列类型等）。"
+  },
+  {
+    "id": 27,
+    "type": "short",
+    "question": "数据库系统中可能发生各种各样的故障，引起故障的原因大致可以分为几类，分别为：【填空1】、计算机病毒、【填空2】和介质故障。",
+    "answer": "事务内部故障、系统故障",
+    "difficulty": "A",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "DBS",
+      "事务",
+      "DB"
+    ],
+    "explanation": "数据库系统故障一般分为事务内部故障（如运算溢出、死锁）、系统故障（如系统断电、OS崩溃）、介质故障（如磁盘损坏）和计算机病毒四类。"
+  },
+  {
+    "id": 28,
+    "type": "short",
+    "question": "在数据库概念结构设计中，各分E-R模型之间的冲突主要有：属性冲突、【填空1】和结构冲突。",
+    "answer": "命名冲突",
+    "difficulty": "B",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "概念模型",
+      "DB"
+    ],
+    "explanation": "在将多个局部E-R图合并为全局E-R图时，常会遇到命名冲突（如同名异义或异名同义）、属性冲突（如类型、取值范围不同）和结构冲突（如同一个对象在一个模型中是实体，在另一个中是属性）。"
+  },
+  {
+    "id": 29,
+    "type": "short",
+    "question": "SQL中，表有三种：【填空1】、【填空2】和【填空3】。",
+    "answer": "基本表(实表)、视图(虚表)、导出表(临时表)",
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "视图"
+    ],
+    "explanation": "基本表是实际存在于数据库中的表；视图是从基本表中导出的逻辑表，不存储真实数据；导出表通常是在查询过程中产生的中间临时结果集。"
+  },
+  {
+    "id": 30,
+    "type": "short",
+    "question": "“RDBMS”和“DML”等，其中文的意思分别为【填空1】和【填空2】。",
+    "answer": "关系数据库管理系统、数据操纵语言",
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "数据操纵",
+      "关系模型"
+    ],
+    "explanation": "RDBMS (Relational Database Management System) 负责关系型数据库的管理；DML (Data Manipulation Language) 包含增、删、改、查等操作语句，供用户操作数据。"
+  },
+  {
+    "id": 31,
+    "type": "short",
+    "question": "二级封锁协议除了可以防止丢失修改，还可以防止【填空1】。",
+    "answer": "读“脏”数据",
+    "difficulty": "B",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "封锁协议",
+      "数据操纵",
+      "丢失修改"
+    ],
+    "explanation": "一级封锁协议解决丢失修改；二级封锁协议（读数据前加S锁，读完即释放）在解决丢失修改基础上防止读脏数据；三级封锁协议（读数据前加S锁，事务结束才释放）进一步解决了不可重复读。"
+  },
+  {
+    "id": 32,
+    "type": "short",
+    "question": "什么是数据库？",
+    "answer": "数据库是长期存储在计算机内、有组织的、可共享的数据集合。数据库是按某种数据模型进行组织的、存放在外存储器上，且可被多个用户同时使用。因此，数据库具有较小的冗余度，较高的数据独立性和易扩展性。",
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据冗余",
+      "数据独立",
+      "DB"
+    ],
+    "explanation": "此题考查数据库的基础定义。解题技巧是把握三个关键词：“长期存储在计算机内”、“有组织的”、“可共享”。数据库是为了实现数据的高效管理和共享而建立的结构化数据集合。"
+  },
+  {
+    "id": 33,
+    "type": "short",
+    "question": "DBA的职责是什么？",
+    "answer": "(1) 参与数据库设计，决定数据库的结构和内容；(2) 定义数据的安全性、完整性，负责分配用户对数据库的使用权限和口令管理；(3) 监督控制数据库的使用和运行，改进或重新构造数据库系统；(4) 帮助终端用户使用数据库。",
+    "difficulty": "B",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DBS",
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据库管理员(DBA)是维护和管理数据库的专业人员。解题时可从设计阶段（参与结构设计）、运行阶段（权限和安全控制）、维护阶段（监督和调优）、用户支持阶段四个维度展开回答。"
+  },
+  {
+    "id": 34,
+    "type": "short",
+    "question": "在数据库设计过程中将E-R模型转换为关系数据模型的转换原则？",
+    "answer": "E-R图中的每个实体，对应一个关系，该关系具有属性为实体的全部属性，关键字为实体的关键字。E-R图中的一个联系对应一个关系，根据联系类型不同在转换为关系模式时具体处理不同：\n(1) 联系类型为1:1时，先将两个实体分别转换两个关系模式，然后在任意一个关系模式中加入另一个关系模式的键和联系类型的属性。\n(2) 1:N时，先将两个实体分别转换为两个关系模式，然后在N端实体转换的关系模式中加入1端实体转换的关系模式的键和联系类型的属性。\n(3) M:N时，先将两个实体分别转换为两个关系模式，然后将联系类型转换为第三个关系模式，其属性由两端实体的键和联系类型的属性构成。",
+    "difficulty": "A",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "联系"
+    ],
+    "explanation": "此题是逻辑结构设计阶段的核心。解题技巧是分两步：1.每个实体转为一个关系（表）；2.针对联系：1:1可以合并或加入外键，1:N将1端的主键作为外键加入N端，M:N必须单独建表（包含两端主键和自身属性）。"
+  },
+  {
+    "id": 35,
+    "type": "sql",
+    "question": "【背景信息：学生选课数据库(S-C-SC)】\n设有如下3个关系表：\nStudent (Sno, Sname, Ssex, Sage, Sdept)  // 学生表\nCourse (Cno, Cname, Cpno, Ccredit)     // 课程表\nSC (Sno, Cno, Grade)                   // 选课表\n\n【题目】:\n1. 编写T-SQL语句创建Student表。\n\n2. 检索姓”李”且倒数第2个字为”华”或”涛”字的学生的姓名和学号。\n\n3. 向Student表中插入元组“S07060,王梅”，并写出该记录的详细信息。\n\n4. 删除选课成绩在45分以下的学生记录。\n\n5. 把“网络工程”课程成绩提高8%。\n\n6. 统计女生各个年龄组（超过4人）有多少人？要求按人数相同的按年龄降序排列。\n\n7. 定义视图S_AVG，其中包括学生学号以及每个学生选修课程的门数（要求成绩非空）和平均成绩。",
+    "answer": "(35): \nCREATE TABLE Student\n(Sno CHAR(8) PRIMARY KEY,\n Sname CHAR(12) NOT NULL UNIQUE,\n Ssex CHAR(2) CHECK(Ssex in('男','女')) DEFAULT '女',\n Sage INT CHECK(Sage>=16 AND Sage<=40) DEFAULT 21,\n Sdept CHAR(20) DEFAULT '电子系');\n\n(36): \nSELECT Sname, Sno\nFROM Student\nWHERE Sname LIKE '李%[华涛]_';\n\n(37): \nINSERT INTO Student (Sno, Sname) VALUES('S07060', '王梅');\n-- 该记录详细信息如下：S07060, 王梅, 女, 21, 电子系\n\n(38): \nDELETE FROM Student\nWHERE SNO IN (SELECT SNO FROM SC WHERE GRADE < 45);\n\n(39): \nUPDATE SC\nSET Grade = Grade * 1.08\nWHERE Cno IN (SELECT Cno FROM Course WHERE Cname = '网络工程');\n\n(40): \nSELECT Sage, COUNT(Sno)\nFROM Student\nWHERE Ssex = '女'\nGROUP BY Sage HAVING COUNT(Sno) > 4\nORDER BY COUNT(Sno), Sage DESC; \n(注：结合SQL语法补全了原卷中缺失的ORDER BY语句)\n\n(41): \nCREATE VIEW S_avg (Sno, Cno_num, Avg_grade)\nAS SELECT Sno, COUNT(Cno), AVG(grade)\nFROM SC\nWHERE grade IS NOT NULL\nGROUP BY Sno;",
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "主码"
+    ],
+    "explanation": "此题考查CREATE TABLE语句及其约束定义。解题技巧：确保主键(PRIMARY KEY)、非空(NOT NULL)、唯一(UNIQUE)、检查约束(CHECK)和默认值(DEFAULT)的语法正确，注意各字段类型与长度的合理性。"
+  },
+  {
+    "id": 42,
+    "type": "sql",
+    "question": "根据院系，教师，课程，学生等实体，设计该教务管理系统局部E-R模型。",
+    "answer": "实体及属性：\n\n系（系名，系主任，联系电话，办公地点）\n\n教师（教师编号，姓名，性别，职称，电话等）\n\n学生（学号，姓名，性别，出生年月，籍贯）\n\n课程（课程号，课程名，类别，开课学期）\n\n联系及类型：\n\n“系”与“教师”之间是 1:n 的“属于”联系。\n\n“系”与“学生”之间是 1:n 的“拥有”联系。\n\n“教师”与“课程”之间是 m:n 的“讲授”联系。\n\n“学生”与“课程”之间是 m:n 的“选修”联系，该联系带有属性“成绩”和“学分”。",
+    "difficulty": "A",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "实体",
+      "联系"
+    ],
+    "explanation": "考查E-R模型设计。解题技巧：明确实体（系、教师、学生、课程）及其属性；确定实体间联系及基数（如1:n的属于、m:n的选修和讲授），并标明联系的属性（如选修的成绩）。"
+  },
+  {
+    "id": 43,
+    "type": "sql",
+    "question": "将该E-R图转换为关系模型结构，并用下划线标明各关系中的主关键字。",
+    "answer": "系 (系名, 办公地点, 系主任, 联系电话)\n\n学生 (学号, 姓名, 性别, 出生年月, 籍贯, 系名)\n\n课程 (课程号, 课程名, 课程类别, 开课学期)\n\n教师 (教师编号, 姓名, 性别, 电话, 系名)\n\n讲授 (教师编号, 课程号)\n\n选修 (学号, 课程号, 成绩, 学分)",
+    "difficulty": "B",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "主码"
+    ],
+    "explanation": "考查E-R图到关系模式的转换。解题技巧：每个实体独立建表；1:n联系中，1端主键作为外键加入n端表；m:n联系独立建表，主键为相连两实体主键的组合，并加入联系自身属性。"
+  },
+  {
+    "id": 44,
+    "type": "choice",
+    "question": "DB、DBMS和DBS三者之间的关系是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "DBS与DB和DBMS无关"
+      },
+      {
+        "label": "B",
+        "text": "DB包括DBMS和DBS"
+      },
+      {
+        "label": "C",
+        "text": "DBS包括DB和DBMS"
+      },
+      {
+        "label": "D",
+        "text": "DBMS包括DBS和DB"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "关系模型",
+      "DBS"
+    ],
+    "explanation": "考查DBS体系结构。DBS（数据库系统）是一个完整的运行环境，它包含DB（数据库）、DBMS（数据库管理系统）以及相关人员和应用软件。因此DBS包括DB和DBMS。"
+  },
+  {
+    "id": 45,
+    "type": "choice",
+    "question": "在数据库中，产生数据不一致的根本原因是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据存储量太大"
+      },
+      {
+        "label": "B",
+        "text": "没有严格保护数据"
+      },
+      {
+        "label": "C",
+        "text": "未对数据进行完整性控制"
+      },
+      {
+        "label": "D",
+        "text": "数据冗余"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据冗余",
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据不一致通常是由数据冗余引起的。如果同一数据在不同地方重复存储，当只更新一处而未更新另一处时，就会出现数据不一致现象。"
+  },
+  {
+    "id": 46,
+    "type": "choice",
+    "question": "自然连接是构成新关系的有效方法。一般情况下，当对关系R和S使用自然连接时，要求R和S含有一个或多个共有的（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "属性"
+      },
+      {
+        "label": "B",
+        "text": "行"
+      },
+      {
+        "label": "C",
+        "text": "记录"
+      },
+      {
+        "label": "D",
+        "text": "元组"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "自然连接",
+      "元组"
+    ],
+    "explanation": "自然连接是一种特殊的等值连接，它要求两个关系中进行比较的分量必须是相同的属性组，并且在结果中把重复的属性列去掉。"
+  },
+  {
+    "id": 47,
+    "type": "choice",
+    "question": "以下是信息世界的模型，且实际上是现实世界到机器世界的一个中间层次的是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据模型"
+      },
+      {
+        "label": "B",
+        "text": "E-R图"
+      },
+      {
+        "label": "C",
+        "text": "关系模型"
+      },
+      {
+        "label": "D",
+        "text": "概念模型"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "概念模型",
+      "关系模型"
+    ],
+    "explanation": "概念模型（如E-R模型）是现实世界到机器世界之间的一个中间层次。它将现实世界的信息抽象化为实体和联系，便于人们理解，随后再转换为机器能处理的数据模型。"
+  },
+  {
+    "id": 48,
+    "type": "choice",
+    "question": "构成ER模型的三个基本要素是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "实体、属性、联系"
+      },
+      {
+        "label": "B",
+        "text": "实体、属性值、关系"
+      },
+      {
+        "label": "C",
+        "text": "实体、实体集、联系"
+      },
+      {
+        "label": "D",
+        "text": "实体、实体集、属性"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "实体",
+      "联系"
+    ],
+    "explanation": "E-R模型（实体-关系模型）的核心三要素是：实体（Entity）、属性（Attribute）和联系（Relationship）。它们构成了信息世界的基本描述单位。"
+  },
+  {
+    "id": 49,
+    "type": "choice",
+    "question": "SQL语言中的“视图(VIEW)”对应于数据库系统三级模式结构中的（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "内模式"
+      },
+      {
+        "label": "B",
+        "text": "外模式"
+      },
+      {
+        "label": "C",
+        "text": "模式"
+      },
+      {
+        "label": "D",
+        "text": "都不对应"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "三级模式",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据库系统三级模式中，外模式对应SQL中的视图（View）或部分基本表；模式对应全局的基本表（Table）；内模式对应存储文件及物理索引。"
+  },
+  {
+    "id": 50,
+    "type": "choice",
+    "question": "SQL的GRANT和REVOKE语句主要用来维护数据库的（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "可靠性"
+      },
+      {
+        "label": "B",
+        "text": "完整性"
+      },
+      {
+        "label": "C",
+        "text": "安全性"
+      },
+      {
+        "label": "D",
+        "text": "一致性"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "一致性",
+      "DB",
+      "授权"
+    ],
+    "explanation": "GRANT（授权）和REVOKE（收回权限）是SQL的数据控制语言(DCL)，用于管理用户对数据库对象的访问权限，从而维护数据库的安全性。"
+  },
+  {
+    "id": 51,
+    "type": "choice",
+    "question": "在下列关于函数依赖的叙述中，不正确的是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "若 $A \\rightarrow B$, $A \\rightarrow C$，则 $A \\rightarrow BC$"
+      },
+      {
+        "label": "B",
+        "text": "若 $A \\rightarrow C$，则 $AB \\rightarrow C$"
+      },
+      {
+        "label": "C",
+        "text": "若 $A \\rightarrow B$, $B \\rightarrow C$，则 $A \\rightarrow C$"
+      },
+      {
+        "label": "D",
+        "text": "若 $AB \\rightarrow C$，则 $A \\rightarrow C$, $B \\rightarrow C$"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "属性"
+    ],
+    "explanation": "函数依赖是关系模式规范化的核心概念。若X->Y，则说明X的属性值可以唯一确定Y的属性值。解题时需注意平凡函数依赖、非平凡函数依赖及传递函数依赖的准确定义。"
+  },
+  {
+    "id": 52,
+    "type": "choice",
+    "question": "设有关系模式R(A,B,C)和S(C,D)。与SQL语句“SELECT A,B,D FROM R,S WHERE R.C=S.C”等价的关系代数表达式为（ ）",
+    "answer": "A  (注: 选项C后方紧跟答案标注)",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\pi_{A,B,D}(\\sigma_{R.C=S.C}(R \\times S))$"
+      },
+      {
+        "label": "B",
+        "text": "$\\sigma_{R.C=S.C}(\\pi_{A,B,D}(R \\times S))$"
+      },
+      {
+        "label": "C",
+        "text": "$\\sigma_{R.C=S.C}(\\pi_{A,B}(R) \\times \\pi_{D}(S))$"
+      },
+      {
+        "label": "D",
+        "text": "$\\sigma_{R.C=S.C}(\\pi_{D}(\\pi_{A,B}(R)) \\times S)$"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "关系模型",
+      "关系代数",
+      "数据操纵"
+    ],
+    "explanation": "此SQL语句执行的是R和S在属性C上的等值连接，然后投影出A,B,D三列。自然连接会自动进行公共属性的等值匹配并去除重复列，因此通常等价于对应的自然连接后的投影操作。"
+  },
+  {
+    "id": 53,
+    "type": "choice",
+    "question": "在数据库设计中数据流图(DFD)和数据字典(DD)主要用来描述结构化方法中的（ ）阶段的工具。",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "概念结构设计"
+      },
+      {
+        "label": "B",
+        "text": "需求分析"
+      },
+      {
+        "label": "C",
+        "text": "可行性分析"
+      },
+      {
+        "label": "D",
+        "text": "逻辑结构设计"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "概念模型",
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据流图(DFD)和数据字典(DD)是结构化分析方法的重要工具，主要用于数据库设计的【需求分析】阶段，用于明确系统的业务流程和数据项要求。"
+  },
+  {
+    "id": 54,
+    "type": "choice",
+    "question": "从E-R模型关系向关系模型转换时，一个M:N联系转换为关系模式时，该关系模式的码是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "M端实体的码"
+      },
+      {
+        "label": "B",
+        "text": "N端实体的码"
+      },
+      {
+        "label": "C",
+        "text": "M端实体码与N端实体码组合"
+      },
+      {
+        "label": "D",
+        "text": "重新选取其他属性"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "实体"
+    ],
+    "explanation": "M:N的联系转换为关系模式时，需要建立一张新表。该表的属性包括相连两端实体的主键以及联系本身的属性，其主码(码)通常是由相连两端实体的主键组合而成。"
+  },
+  {
+    "id": 55,
+    "type": "choice",
+    "question": "用如下的SQL语句创建一个Teacher表：CREATE TABLE Teacher (TNO Char(6) NOT NULL, NAME Char(8) NOT NULL, SEX Char(2), SAL INT, SDETP char(12) check (SDEPT IN('IS', 'MA', 'CS')))，可以插入到Teacher表中的元组是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "('101', '李梅', '女', 100, 'EN')"
+      },
+      {
+        "label": "B",
+        "text": "(NULL, '李红', '女', '200', 'CS')"
+      },
+      {
+        "label": "C",
+        "text": "('111', NULL, '女', 23, 'MA')"
+      },
+      {
+        "label": "D",
+        "text": "('203', '刘刚', NULL, NULL, 'IS')"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "元组"
+    ],
+    "explanation": "根据约束条件：TNO(不为空), NAME(不为空), SEX, SAL, SDEPT(只能是'IS', 'MA', 'CS')。解题时应逐一检查选项的非空限制和CHECK约束条件，排除非法数据。"
+  },
+  {
+    "id": 56,
+    "type": "choice",
+    "question": "SQL的集合处理方式与宿主语言单记录的处理方式之间用（ ）协调。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "游标"
+      },
+      {
+        "label": "B",
+        "text": "SQLCA"
+      },
+      {
+        "label": "C",
+        "text": "存储过程"
+      },
+      {
+        "label": "D",
+        "text": "触发器"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "存储过程",
+      "触发器",
+      "元组"
+    ],
+    "explanation": "SQL语言具有面向集合的特性，而高级编程语言（宿主语言）通常是面向单记录处理的。游标(Cursor)机制正是用来协调这两种不同的处理方式的。"
+  },
+  {
+    "id": 57,
+    "type": "choice",
+    "question": "关于BC范式下列说法正确的是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "如果R∈3NF，则R一定是BCNF"
+      },
+      {
+        "label": "B",
+        "text": "若R∈3NF，且不存在主属性对非码的函数依赖，则其是BCNF"
+      },
+      {
+        "label": "C",
+        "text": "如果R∈BCNF，则R∈3NF"
+      },
+      {
+        "label": "D",
+        "text": "以上说法都不对"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "第三范式",
+      "BCNF",
+      "属性"
+    ],
+    "explanation": "BCNF(Boyce-Codd Normal Form)是第三范式的改进。如果关系模式R是BCNF，那么它消除了主属性和非主属性对码的部分及传递依赖。即所有非平凡函数依赖的决定因子必定包含候选码。"
+  },
+  {
+    "id": 58,
+    "type": "choice",
+    "question": "下面有关各种范式之间的包含关系的描述中，正确的是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "$BCNF \\subset 4NF \\subset 3NF \\subset 2NF \\subset 1NF$"
+      },
+      {
+        "label": "B",
+        "text": "$1NF \\subset 2NF \\subset 3NF \\subset 4NF \\subset BCNF$"
+      },
+      {
+        "label": "C",
+        "text": "$4NF \\subset BCNF \\subset 3NF \\subset 2NF \\subset 1NF$"
+      },
+      {
+        "label": "D",
+        "text": "$1NF \\subset 2NF \\subset 3NF \\subset BCNF \\subset 4NF$"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "第三范式",
+      "关系模型",
+      "第一范式"
+    ],
+    "explanation": "范式之间存在严格的包含关系：1NF包含2NF，2NF包含3NF，3NF包含BCNF。范式级别越高，规范化程度越高，数据冗余度越低。"
+  },
+  {
+    "id": 59,
+    "type": "choice",
+    "question": "数据库的（ ）是指数据的正确性和相容性。",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "恢复"
+      },
+      {
+        "label": "B",
+        "text": "安全性"
+      },
+      {
+        "label": "C",
+        "text": "并发控制"
+      },
+      {
+        "label": "D",
+        "text": "完整性"
+      }
+    ],
+    "difficulty": "C",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DB"
+    ],
+    "explanation": "数据库的完整性(Integrity)是为了防止数据库中存在不符合语义的数据，也就是防止错误信息的输入和输出；安全性是为了防止非法用户的恶意破坏。"
+  },
+  {
+    "id": 60,
+    "type": "choice",
+    "question": "一个事务执行过程中，其正在访问的数据被其他事务所修改，导致处理结果不正确，这是由于违背了事务的何种特性而引起的（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "隔离性"
+      },
+      {
+        "label": "B",
+        "text": "一致性"
+      },
+      {
+        "label": "C",
+        "text": "原子性"
+      },
+      {
+        "label": "D",
+        "text": "持久性"
+      }
+    ],
+    "difficulty": "A",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "数据操纵",
+      "持久性",
+      "原子性"
+    ],
+    "explanation": "并发执行的事务之间互不干扰，这是事务的隔离性。违背隔离性会导致脏读、不可重复读和幻读等并发一致性问题。"
+  },
+  {
+    "id": 61,
+    "type": "choice",
+    "question": "当对视图进行UPDATE、INSERT和DELETE操作时，为了保证被操作的元组满足视图定义中子查询语句的谓词条件，应在视图定义语句中使用可选择项（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "With Revoke Option"
+      },
+      {
+        "label": "B",
+        "text": "With Check Option"
+      },
+      {
+        "label": "C",
+        "text": "With Role Option"
+      },
+      {
+        "label": "D",
+        "text": "With Grant Option"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "视图",
+      "授权"
+    ],
+    "explanation": "在创建视图时加入WITH CHECK OPTION子句，可以保证对视图的更新操作依然满足视图定义时的条件表达式，否则系统会拒绝执行更新。"
+  },
+  {
+    "id": 62,
+    "type": "choice",
+    "question": "当将局部E-R图集成为全局E-R图时，如果同一对象在一个局部E-R图中作为实体，而在另一个局部E-R图中作为属性，这种现象称为（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "属性冲突"
+      },
+      {
+        "label": "B",
+        "text": "命名冲突"
+      },
+      {
+        "label": "C",
+        "text": "结构冲突"
+      },
+      {
+        "label": "D",
+        "text": "语义冲突"
+      }
+    ],
+    "difficulty": "B",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "实体",
+      "属性"
+    ],
+    "explanation": "E-R图合并冲突分三种。属性冲突是类型或取值范围冲突；命名冲突是同名异义或异名同义；结构冲突是指同一对象在不同局部应用中的抽象级别（实体/属性）不同。"
+  },
+  {
+    "id": 63,
+    "type": "short",
+    "question": "数据模型是由【填空1】、【填空2】和【填空3】三部分组成的。",
+    "answer": "数据结构、数据操作、完整性约束",
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBS"
+    ],
+    "explanation": "数据模型是数据库系统的核心和基础，其中数据结构描述静态特征，数据操作描述动态行为，完整性约束描述数据必须遵循的语义规则。"
+  },
+  {
+    "id": 64,
+    "type": "short",
+    "question": "关系数据语言可以分为三类：【填空1】、【填空2】和关系代数语言。",
+    "answer": "关系演算语言、SQL语言",
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "关系模型",
+      "关系代数"
+    ],
+    "explanation": "关系数据语言可分为关系代数语言（基于代数运算）、关系演算语言（基于逻辑演算，包括元组演算和域演算）以及兼具两者的综合性SQL语言。"
+  },
+  {
+    "id": 65,
+    "type": "short",
+    "question": "基本表结构修改用【填空1】语句，基本表内容修改用【填空2】语句。",
+    "answer": "ALTER、UPDATE",
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵"
+    ],
+    "explanation": "务必区分DDL（数据定义语言）和DML（数据操纵语言）。ALTER是对表定义（结构）的修改，UPDATE是对表内已存在的数据元组的修改。"
+  },
+  {
+    "id": 66,
+    "type": "short",
+    "question": "规范化数据库设计分为以下六个设计阶段：需求分析阶段、【填空1】、【填空2】、【填空3】、数据库实施阶段、数据库运行和维护阶段。",
+    "answer": "概念结构设计、逻辑结构设计、物理结构设计阶段",
+    "difficulty": "C",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "概念模型",
+      "规范化",
+      "DB"
+    ],
+    "explanation": "完整的数据库生命周期设计法包括：需求分析、概念设计(E-R图)、逻辑设计(转关系模式并规范化)、物理设计、实施、运行与维护。"
+  },
+  {
+    "id": 67,
+    "type": "short",
+    "question": "关系代数是一种关系操纵语言，它的操作对象和操作结果均为【填空1】。",
+    "answer": "关系",
+    "difficulty": "C",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "关系代数"
+    ],
+    "explanation": "关系代数是一种抽象的查询语言，它将关系（二维表）作为基本操作对象，任何关系运算的结果也是一个关系。这种特性称为关系代数的封闭性。"
+  },
+  {
+    "id": 68,
+    "type": "short",
+    "question": "如果一个关系模式R是1NF，并且关系的每个决定因子都是候选码，那么R至少应该是【填空1】范式。",
+    "answer": "BC范式",
+    "difficulty": "C",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "第一范式",
+      "关系模型",
+      "候选码"
+    ],
+    "explanation": "BCNF的定义就是：关系模式中每一个决定因子都包含候选码。它不但消除了非主属性对码的部分和传递依赖，还消除了主属性对码的部分和传递依赖。"
+  },
+  {
+    "id": 69,
+    "type": "short",
+    "question": "SQL中，表分为【填空1】和【填空2】。 (依据上下文语义及答案复原)",
+    "answer": "视图、基本表",
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "视图"
+    ],
+    "explanation": "基本表是物理上实际存储的二维表；视图是逻辑上存在的虚拟表，它的数据来源于基本表。二者在SQL查询中常可同等使用。"
+  },
+  {
+    "id": 70,
+    "type": "short",
+    "question": "数据库中术语英文缩写有“RDBMS”和“DML”等，其中文的意思分别为【填空1】和【填空2】。",
+    "answer": "关系数据库管理系统、数据操纵语言",
+    "difficulty": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "数据操纵",
+      "关系模型"
+    ],
+    "explanation": "RDBMS是管理关系数据库的核心软件；DML提供增、删、改、查的语句，是用户与数据交互的直接工具。"
+  },
+  {
+    "id": 71,
+    "type": "short",
+    "question": "在关系数据库的规范化理论中，在执行“分解”时，必须遵守规范化原则：保持原有的函数依赖和【填空1】。",
+    "answer": "无损连接",
+    "difficulty": "C",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "关系模型",
+      "规范化",
+      "DB"
+    ],
+    "explanation": "关系模式分解的两个核心标准是：无损连接性（分解后能通过自然连接完全恢复原关系）和保持函数依赖性（分解后的模式能覆盖原有的全部函数依赖）。"
+  },
+  {
+    "id": 72,
+    "type": "short",
+    "question": "在SQL语言中，如果要为一个基本表增加列和完整性约束条件，应该使用SQL语句【填空1】。",
+    "answer": "ALTER TABLE",
+    "difficulty": "C",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "属性"
+    ],
+    "explanation": "使用ALTER TABLE命令可以通过ADD子句增加新列或新的完整性约束（如PRIMARY KEY, CHECK），是管理表结构的核心语句。"
+  },
+  {
+    "id": 73,
+    "type": "short",
+    "question": "DBA的职责是什么？",
+    "answer": "(1) 参与数据库设计，决定数据库的结构和内容；\n(2) 定义数据的安全性、完整性，负责分配用户对数据库的使用权限和口令管理；\n(3) 监督控制数据库的使用和运行，改进或重新构造数据库系统；\n(4) 帮助终端用户使用数据库。",
+    "difficulty": "C",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DBS",
+      "DB",
+      "元组"
+    ],
+    "explanation": "这是简答题常考点。解题技巧：按照系统生命周期记忆，1.规划与设计阶段；2.数据安全性及完整性定义；3.系统日常运行与性能调优；4.用户支持与培训。"
+  },
+  {
+    "id": 74,
+    "type": "short",
+    "question": "在数据库设计过程中将E-R模型转换为关系数据模型的转换原则？",
+    "answer": "E-R图中的每个实体，对应一个关系，该关系具有属性为实体的全部属性，关键字为实体的关键字。E-R图中的一个联系对应一个关系，该关系具有属性为联系的属性以及该联系相关的实体的关键字。考虑到数据库优化，根据联系类型不同在转换为关系模式时具体处理不同：\n(1) 联系类型为1:1时，先将两个实体分别转换两个关系模式，然后在任意一个关系模式中加入另一个关系模式的键和联系类型的属性。\n(2) 1:N时，先将两个实体分别转换为两个关系模式，然后在N端实体转换的关系模式中加入1端实体转换的关系模式的键和联系类型的属性。\n(3) M:N时，先将两个实体分别转换为两个关系模式，然后将联系类型转换为第三个关系模式，其属性由两端实体的键和联系类型的属性构成。",
+    "difficulty": "A",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "联系"
+    ],
+    "explanation": "此题是逻辑设计核心原则。解题技巧分两类：实体直接转表；1:1联系可选任意一端加外键；1:N联系在N端加外键；M:N联系单独建表，包含双主键。"
+  },
+  {
+    "id": 75,
+    "type": "choice",
+    "question": "SELECT 语句执行的结果是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据项"
+      },
+      {
+        "label": "B",
+        "text": "元组"
+      },
+      {
+        "label": "C",
+        "text": "视图"
+      },
+      {
+        "label": "D",
+        "text": "表"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "视图",
+      "元组"
+    ],
+    "explanation": "SQL的SELECT语句基于关系代数理论，其输入是一个或多个关系（表），由于关系代数的封闭性，其输出（查询结果集）也是一个关系（二维表）。"
+  },
+  {
+    "id": 76,
+    "type": "choice",
+    "question": "不属于实现数据库系统安全性检查的技术和方法是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储控制技术"
+      },
+      {
+        "label": "B",
+        "text": "视图技术"
+      },
+      {
+        "label": "C",
+        "text": "审计技术"
+      },
+      {
+        "label": "D",
+        "text": "出入机房登记和加锁"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "DBS",
+      "DB",
+      "视图"
+    ],
+    "explanation": "数据库安全性措施通常包括用户身份鉴别、存取控制（自主/强制）、视图机制、审计和数据加密。完整性约束（如实体完整性）不属于安全性检查技术。"
+  },
+  {
+    "id": 77,
+    "type": "choice",
+    "question": "SQL中的视图提高了数据库系统的（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "完整性"
+      },
+      {
+        "label": "B",
+        "text": "并发控制"
+      },
+      {
+        "label": "C",
+        "text": "安全性"
+      },
+      {
+        "label": "D",
+        "text": "隔离性"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DBS",
+      "隔离性"
+    ],
+    "explanation": "视图通过隐藏底层表的复杂结构，并且可以限制用户只看到允许访问的数据，从而显著提高了数据库的安全性和逻辑数据独立性。"
+  },
+  {
+    "id": 78,
+    "type": "choice",
+    "question": "SQL语言中的GRANT和REVOKE语句主要是用来维护数据库的（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "完整性"
+      },
+      {
+        "label": "B",
+        "text": "可靠性"
+      },
+      {
+        "label": "C",
+        "text": "安全性"
+      },
+      {
+        "label": "D",
+        "text": "一致性"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "一致性",
+      "DB",
+      "授权"
+    ],
+    "explanation": "GRANT用于赋予权限，REVOKE用于撤销权限，这两者构成了自主存取控制(DAC)的基础，是维护数据库安全性的主要手段。"
+  },
+  {
+    "id": 79,
+    "type": "choice",
+    "question": "下面哪个不是数据库系统必须提供的数据控制功能（ ）\n(注：根据上下文和数据库基础理论补全选项)",
+    "answer": "待定（原卷该题题干与选项发生严重截断错位，常规答案应为脱离这四大控制的干扰项，此处仅做结构保留）",
+    "options": [
+      {
+        "label": "A",
+        "text": "安全性"
+      },
+      {
+        "label": "B",
+        "text": "完整性"
+      },
+      {
+        "label": "C",
+        "text": "并发控制"
+      },
+      {
+        "label": "D",
+        "text": "恢复"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "数据控制",
+      "并发控制",
+      "DBS"
+    ],
+    "explanation": "DBMS必须提供的数据控制功能包括安全性保护、完整性检查、并发控制和数据库恢复。解题时需注意区分这四大控制功能与常规的数据增删改查操作。"
+  },
+  {
+    "id": 80,
+    "type": "choice",
+    "question": "保护数据库以防止不合法的使用造成的破坏，这是数据的（ ）\n(注：从原卷第5、6题间的错乱文本中还原出的题干)",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "安全性"
+      },
+      {
+        "label": "B",
+        "text": "完整性"
+      },
+      {
+        "label": "C",
+        "text": "并发控制"
+      },
+      {
+        "label": "D",
+        "text": "恢复"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DB"
+    ],
+    "explanation": "防止不合法用户或非法操作对数据进行读取、修改、破坏的功能属于数据库的安全性保障。需将其与防止合法用户输入错误数据的完整性控制区分开来。"
+  },
+  {
+    "id": 81,
+    "type": "choice",
+    "question": "在数据系统中，对存取权限的定义称为（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "命令"
+      },
+      {
+        "label": "B",
+        "text": "授权"
+      },
+      {
+        "label": "C",
+        "text": "定义"
+      },
+      {
+        "label": "D",
+        "text": "审计"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "授权"
+    ],
+    "explanation": "存取权限定义称为授权（Authorization），DBMS通过授权机制控制不同用户对不同数据对象的访问级别。"
+  },
+  {
+    "id": 82,
+    "type": "choice",
+    "question": "在SQL Server中删除触发器使用（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROLLBACK"
+      },
+      {
+        "label": "B",
+        "text": "DROP"
+      },
+      {
+        "label": "C",
+        "text": "DEALLOCATE"
+      },
+      {
+        "label": "D",
+        "text": "DELETE"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "触发器"
+    ],
+    "explanation": "触发器属于数据库对象。删除表使用DROP TABLE，删除视图使用DROP VIEW，因此删除触发器使用DROP TRIGGER。"
+  },
+  {
+    "id": 83,
+    "type": "choice",
+    "question": "下述SQL语言中的权限，哪一个允许用户定义新关系时，引用其他关系的主码作为外码（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "INSERT"
+      },
+      {
+        "label": "B",
+        "text": "DELETE"
+      },
+      {
+        "label": "C",
+        "text": "REFERENCES"
+      },
+      {
+        "label": "D",
+        "text": "SELECT"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "关系模型",
+      "数据操纵",
+      "授权"
+    ],
+    "explanation": "在SQL中，REFERENCES权限允许用户在创建外键时引用另一个表的主键，这涉及两个表的数据一致性，因此是一项单独的权限。"
+  },
+  {
+    "id": 84,
+    "type": "choice",
+    "question": "在表或视图上执行除了（ ）以外的语句都可以激活触发器。",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "Insert"
+      },
+      {
+        "label": "B",
+        "text": "Delete"
+      },
+      {
+        "label": "C",
+        "text": "Update"
+      },
+      {
+        "label": "D",
+        "text": "Create"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "触发器"
+    ],
+    "explanation": "触发器（Trigger）通常是在数据发生变更时（如INSERT、UPDATE、DELETE）自动触发执行的机制。SELECT仅仅是查询数据，不会改变状态，因此不会激活DML触发器。"
+  },
+  {
+    "id": 85,
+    "type": "choice",
+    "question": "检索选修课程“C2”的学生中成绩最高的学生的学号。正确的 SELECT 语句是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD>=(SELECT GRAD FROM SC WHERE C#='C2')"
+      },
+      {
+        "label": "B",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD IN (SELECT GRAD FROM SC WHERE C#='C2')"
+      },
+      {
+        "label": "C",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD NOT IN (SELECT GRAD FROM SC WHERE C#='C2')"
+      },
+      {
+        "label": "D",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD>=ALL(SELECT GRAD FROM SC WHERE C#='C2')"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "考查嵌套查询与排序。解题技巧：先筛选Cno='C2'的记录，按成绩(grade)降序排列(ORDER BY grade DESC)，取第一条记录。"
+  },
+  {
+    "id": 86,
+    "type": "choice",
+    "question": "检索学生姓名及其所选修课程的课程号和成绩。正确的语句是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM S WHERE S.S#=SC.S#"
+      },
+      {
+        "label": "B",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM SC WHERE S.S#=SC.S# (注: 原卷此处语法有截断)"
+      },
+      {
+        "label": "C",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM S, SC WHERE S.S#=SC.S#"
+      },
+      {
+        "label": "D",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM S, SC"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "考查多表连接查询。学生姓名在Student表，课程号和成绩在SC表。解题技巧：需要将Student和SC通过学号(Sno)进行等值连接。"
+  },
+  {
+    "id": 87,
+    "type": "choice",
+    "question": "数据库的概念模型独立于（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "具体的机器和DBMS"
+      },
+      {
+        "label": "B",
+        "text": "E-R图"
+      },
+      {
+        "label": "C",
+        "text": "信息世界"
+      },
+      {
+        "label": "D",
+        "text": "现实世界"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "DBMS",
+      "概念模型"
+    ],
+    "explanation": "概念模型（如E-R模型）是对现实世界的纯粹抽象，它只反映业务逻辑和信息结构，不依赖于任何特定的计算机系统或数据库管理系统(DBMS)。"
+  },
+  {
+    "id": 88,
+    "type": "choice",
+    "question": "候选码中的属性可以有（ ）个？",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "0个"
+      },
+      {
+        "label": "B",
+        "text": "1个"
+      },
+      {
+        "label": "C",
+        "text": "1个或多个"
+      },
+      {
+        "label": "D",
+        "text": "多个"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "候选码",
+      "属性"
+    ],
+    "explanation": "候选码是能够唯一标识关系中元组的一个属性或属性组。它可以由单个属性构成，也可以由多个属性组合而成。"
+  },
+  {
+    "id": 89,
+    "type": "choice",
+    "question": "从E-R模型向关系模型转换时，一个m:n联系转换为关系模式时，该关系模式的码是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "m端实体的码"
+      },
+      {
+        "label": "B",
+        "text": "n端实体的码"
+      },
+      {
+        "label": "C",
+        "text": "m端实体码与n端实体码的组合"
+      },
+      {
+        "label": "D",
+        "text": "重新选取其他属性"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "实体"
+    ],
+    "explanation": "m:n联系需要建新表，新表的码必须包含相连两端实体的主码，两者组合起来才能唯一标识该联系的一个实例。"
+  },
+  {
+    "id": 90,
+    "type": "choice",
+    "question": "事务的原子性是指（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "事务中包括的所有操作要么都做，要么都不做。"
+      },
+      {
+        "label": "B",
+        "text": "事务一旦提交，改变是永久的。"
+      },
+      {
+        "label": "C",
+        "text": "一个事物内部的操作及使用的数据对并发的其他事务是隔离的。"
+      },
+      {
+        "label": "D",
+        "text": "事务必须使数据库从一个一致性状态变到另一个一致性状态。"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "一致性",
+      "原子性",
+      "事务"
+    ],
+    "explanation": "原子性（Atomicity）强调事务是不可分割的逻辑工作单元，就像原子一样不可再分。事务包含的操作要么全部成功，要么全部回滚。"
+  },
+  {
+    "id": 91,
+    "type": "choice",
+    "question": "数据库中的封锁机制是（ ）的主要实现技术。",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "完整性"
+      },
+      {
+        "label": "B",
+        "text": "安全性"
+      },
+      {
+        "label": "C",
+        "text": "并发控制"
+      },
+      {
+        "label": "D",
+        "text": "恢复"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "封锁协议",
+      "并发控制",
+      "DB"
+    ],
+    "explanation": "为了保证并发事务在同时访问相同数据时的隔离性和一致性，DBMS普遍采用封锁(Locking)机制，如S锁(共享锁)和X锁(排他锁)。"
+  },
+  {
+    "id": 92,
+    "type": "choice",
+    "question": "同一个关系模型的任意两个元组值（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "可全同"
+      },
+      {
+        "label": "B",
+        "text": "不能全同"
+      },
+      {
+        "label": "C",
+        "text": "必须全同"
+      },
+      {
+        "label": "D",
+        "text": "以上都不是"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "元组"
+    ],
+    "explanation": "关系模型对应于数学上的集合论，集合中的元素具有互异性。因此在关系(二维表)中，任意两个元组不能完全相同，这也是实体完整性的基础。"
+  },
+  {
+    "id": 93,
+    "type": "choice",
+    "question": "在数据库中，产生数据不一致的根本原因是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据存储量太大"
+      },
+      {
+        "label": "B",
+        "text": "没有严格保护数据"
+      },
+      {
+        "label": "C",
+        "text": "未对数据进行完整性控制"
+      },
+      {
+        "label": "D",
+        "text": "数据冗余"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据冗余",
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据冗余意味着同一数据存在多份副本。如果修改操作只更新了部分副本，就会导致数据之间的不一致。"
+  },
+  {
+    "id": 94,
+    "type": "tf",
+    "question": "不是所有的视图都可以进行更新，但视图都可以进行插入。",
+    "answer": "错误 （不能更新的视图通常也不能插入）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "视图",
+      "元组"
+    ],
+    "explanation": "视图的更新（包括插入、修改、删除）受严格限制。包含聚合函数、GROUP BY、DISTINCT或复杂多表连接的视图通常既不能更新，也不能插入。"
+  },
+  {
+    "id": 95,
+    "type": "tf",
+    "question": "SELECT 子句中的目标列可以是表中的属性列，也可以是表达式。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "属性"
+    ],
+    "explanation": "SELECT语句非常灵活，除了列名外，还可以包含算术表达式、字符串常量、内置函数等，用于对输出结果进行动态计算。"
+  },
+  {
+    "id": 96,
+    "type": "tf",
+    "question": "在SQL语句中表达某个属性X为空，可以使用 WHERE X=NULL。",
+    "answer": "错误 （应该使用 X IS NULL）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "属性"
+    ],
+    "explanation": "在SQL中，NULL表示未知或不存在。任何值与NULL进行算术比较（如=, <）的结果都是UNKNOWN。判断是否为空必须使用 IS NULL 或 IS NOT NULL。"
+  },
+  {
+    "id": 97,
+    "type": "tf",
+    "question": "SQL语句中逻辑运算符AND和OR的优先级是一样的。",
+    "answer": "错误 （AND 的优先级高于 OR）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "SQL中，NOT的优先级最高，其次是AND，最后是OR。建议在编写复杂逻辑条件时多使用括号来明确优先级。"
+  },
+  {
+    "id": 98,
+    "type": "tf",
+    "question": "使用ANY或ALL谓词时必须与比较运算符同时使用。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBS"
+    ],
+    "explanation": "ANY和ALL通常用于子查询中，前面必须带有如 >, <, =, >=, <= 等比较运算符（例如 `> ALL(子查询)` 表示大于所有值）。"
+  },
+  {
+    "id": 99,
+    "type": "tf",
+    "question": "关系模型中，非主属性不可能出现在任何候选码中。",
+    "answer": "正确 （根据定义，出现在候选码中的属性为主属性，非主属性即不包含在任何候选码中的属性）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "候选码",
+      "属性"
+    ],
+    "explanation": "包含在任何一个候选码中的属性称为主属性。不在任何候选码中的属性称为非主属性。根据定义，此判断完全正确。"
+  },
+  {
+    "id": 100,
+    "type": "tf",
+    "question": "在左外连接中，保留的是左边关系中所有的元组。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "元组"
+    ],
+    "explanation": "左外连接（LEFT OUTER JOIN）在等值连接的基础上，如果左表中的元组在右表中找不到匹配，也会被保留在结果中，右表对应的属性值填NULL。"
+  },
+  {
+    "id": 101,
+    "type": "tf",
+    "question": "关系模式是对关系的描述，关系是关系模式在某一时刻的状态或内容。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型"
+    ],
+    "explanation": "关系模式是静态的表结构定义（如列名、类型等）；关系是动态的数据集合（如表里的行），随着增删改操作时刻发生变化。"
+  },
+  {
+    "id": 102,
+    "type": "short",
+    "question": "1. 什么是视图？为什么将sql中的视图称为“虚表”？\n\n2. 标准答案: 视图是基于一个或多个基础表的查询结果集的逻辑表示。它像表一样可以在查询中获取数据，因此称为“虚表”。视图具有以下特点：\n\n3. 简化查询：将复杂的查询封装，便于使用。\n\n4. 数据安全：限制用户访问特定的数据。\n\n5. 逻辑独立：基础表结构变化不影响视图。\n\n6. 节省存储：不占用额外存储空间。\n难度系数: 常规",
+    "answer": "",
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据独立",
+      "数据操纵",
+      "视图"
+    ],
+    "explanation": "此题考查视图的概念及其本质。解题技巧：视图是从基本表导出的结果集，它在数据库中只存储定义（SQL查询语句），不实际存储数据。数据依然存在基本表中，因此称为“虚表”。"
+  },
+  {
+    "id": 103,
+    "type": "short",
+    "question": "1. 试述采用E-R模型进行数据库概念设计的过程。\n\n2. 标准答案:\n\n3. 需求分析：收集和分析用户需求，明确系统需要管理的业务对象和信息。\n\n4. 确定实体：识别出系统中的主要实体，如“学生”、“课程”等，定义每个实体的属性。\n\n5. 确定关系：分析实体之间的关联，如“学生选课”关系，明确关系的类型（如一对多、多对多）。\n\n6. 定义属性：为每个实体和关系指定具体的属性，确定主键和外键，确保数据的唯一性和完整性。\n\n7. 绘制E-R图：使用图形化工具将实体、属性和关系以E-R图的形式表示出来，直观展示数据库结构。\n\n8. 优化和规范化：检查E-R模型的合理性，消除冗余和依赖，确保模型的规范化程度。\n\n9. 转换为逻辑模型：将E-R模型转化为具体的数据库逻辑模型，如关系模型，准备进行物理设计和实施。\n难度系数: 常规",
+    "answer": "",
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "逻辑模型"
+    ],
+    "explanation": "此题考查数据库设计方法论。解题思路应涵盖：1.需求分析；2.识别实体及属性；3.识别实体间的联系及类型；4.绘制E-R图；5.检查和消除冲突，最终生成全局E-R图。"
+  },
+  {
+    "id": 104,
+    "type": "choice",
+    "question": "SELECT 语句执行的结果是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据项"
+      },
+      {
+        "label": "B",
+        "text": "元组"
+      },
+      {
+        "label": "C",
+        "text": "表"
+      },
+      {
+        "label": "D",
+        "text": "视图"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "视图",
+      "元组"
+    ],
+    "explanation": "SQL的SELECT语句基于关系代数，其输出结果依然是一个关系（即二维表结构的数据集）。"
+  },
+  {
+    "id": 105,
+    "type": "choice",
+    "question": "SQL语言中，实现数据检索的语句是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "SELECT"
+      },
+      {
+        "label": "B",
+        "text": "INSERT"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE"
+      },
+      {
+        "label": "D",
+        "text": "DELETE"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "SELECT是SQL中最重要的数据查询（检索）语句。其他如INSERT, UPDATE, DELETE属于数据更新操作。"
+  },
+  {
+    "id": 106,
+    "type": "choice",
+    "question": "不属于实现数据库系统安全性检查的技术和方法是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储控制技术"
+      },
+      {
+        "label": "B",
+        "text": "视图技术"
+      },
+      {
+        "label": "C",
+        "text": "审计技术"
+      },
+      {
+        "label": "D",
+        "text": "出入机房登记和加锁"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "DBS",
+      "DB",
+      "视图"
+    ],
+    "explanation": "完整性约束（实体完整性、参照完整性）是保证数据正确性的机制；而安全性则是通过授权、视图、加密等防止非法数据访问。"
+  },
+  {
+    "id": 107,
+    "type": "choice",
+    "question": "SQL中的视图提高了数据库系统的（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "完整性"
+      },
+      {
+        "label": "B",
+        "text": "并发控制"
+      },
+      {
+        "label": "C",
+        "text": "隔离性"
+      },
+      {
+        "label": "D",
+        "text": "安全性"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DBS",
+      "隔离性"
+    ],
+    "explanation": "视图屏蔽了底层表结构的变化（逻辑数据独立性），并且可以限制用户只访问特定的行列数据（增强安全性）。"
+  },
+  {
+    "id": 108,
+    "type": "choice",
+    "question": "SQL语言中的GRANT和REVOKE语句主要是用来维护数据库的（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "完整性"
+      },
+      {
+        "label": "B",
+        "text": "可靠性"
+      },
+      {
+        "label": "C",
+        "text": "安全性"
+      },
+      {
+        "label": "D",
+        "text": "一致性"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "一致性",
+      "DB",
+      "授权"
+    ],
+    "explanation": "GRANT用于赋予权限，REVOKE用于回收权限。它们是自主存取控制(DAC)的核心，用于保障数据库系统安全。"
+  },
+  {
+    "id": 109,
+    "type": "choice",
+    "question": "下面哪个不是数据库系统必须提供的数据控制功能（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "可移植性"
+      },
+      {
+        "label": "B",
+        "text": "完整性"
+      },
+      {
+        "label": "C",
+        "text": "并发控制"
+      },
+      {
+        "label": "D",
+        "text": "安全性"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "数据控制",
+      "并发控制",
+      "DBS"
+    ],
+    "explanation": "数据库控制功能（DCL/DBMS核心）主要包括：并发控制、数据恢复、完整性控制、安全性控制。如果选项是数据定义或数据查询，则不是控制功能。"
+  },
+  {
+    "id": 110,
+    "type": "choice",
+    "question": "保护数据库以防止不合法的使用造成的破坏，这是数据的（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "安全性"
+      },
+      {
+        "label": "B",
+        "text": "完整性"
+      },
+      {
+        "label": "C",
+        "text": "并发控制"
+      },
+      {
+        "label": "D",
+        "text": "恢复"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DB"
+    ],
+    "explanation": "防止“不合法的使用”、“恶意破坏”均属于安全性范畴。防止“合法用户输入不符合语义的数据”才属于完整性范畴。"
+  },
+  {
+    "id": 111,
+    "type": "choice",
+    "question": "在数据系统中，对存取权限的定义称为（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "授权"
+      },
+      {
+        "label": "B",
+        "text": "定义"
+      },
+      {
+        "label": "C",
+        "text": "审计"
+      },
+      {
+        "label": "D",
+        "text": "命令"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "授权"
+    ],
+    "explanation": "授权(Authorization)是数据库安全控制的重要步骤，即DBA或对象属主赋予用户特定的访问权限。"
+  },
+  {
+    "id": 112,
+    "type": "choice",
+    "question": "在SQL服务器中删除触发器使用（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROLLBACK"
+      },
+      {
+        "label": "B",
+        "text": "DROP"
+      },
+      {
+        "label": "C",
+        "text": "DEALLOCATE"
+      },
+      {
+        "label": "D",
+        "text": "DELETE"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "触发器"
+    ],
+    "explanation": "凡是删除数据库内部已创建的结构（如表、视图、索引、触发器等），一律使用DROP语句。"
+  },
+  {
+    "id": 113,
+    "type": "choice",
+    "question": "下述SQL语言中的权限，哪一个允许用户定义新关系时，引用其他关系的主码作为外码（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "INSERT"
+      },
+      {
+        "label": "B",
+        "text": "DELETE"
+      },
+      {
+        "label": "C",
+        "text": "REFERENCES"
+      },
+      {
+        "label": "D",
+        "text": "SELECT"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "关系模型",
+      "数据操纵",
+      "授权"
+    ],
+    "explanation": "建立外键关联会限制被参照表的数据更新和删除操作。因此，在被参照表上必须具备REFERENCES权限才能建立外键。"
+  },
+  {
+    "id": 114,
+    "type": "choice",
+    "question": "在数据库系统中，保证数据及语义正确和有效的功能是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "并发控制"
+      },
+      {
+        "label": "B",
+        "text": "存取控制"
+      },
+      {
+        "label": "C",
+        "text": "安全控制"
+      },
+      {
+        "label": "D",
+        "text": "完整性控制"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据的正确性（符合现实世界）和有效性（相容）正是数据完整性约束的作用，如防止插入年龄为负数的记录。"
+  },
+  {
+    "id": 115,
+    "type": "choice",
+    "question": "在表或视图上执行除了（ ）以外的语句都可以激活触发器。",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "Insert"
+      },
+      {
+        "label": "B",
+        "text": "Delete"
+      },
+      {
+        "label": "C",
+        "text": "Update"
+      },
+      {
+        "label": "D",
+        "text": "Create"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据定义",
+      "数据操纵",
+      "触发器"
+    ],
+    "explanation": "触发器(Trigger)是一种特殊的存储过程，通常在执行INSERT、UPDATE、DELETE时自动触发。单纯的查询(SELECT)不会引起数据改变，所以不激活触发器。"
+  },
+  {
+    "id": 116,
+    "type": "choice",
+    "question": "检索选修课程“C2”的学生中成绩最高的学生的学号。正确的语句是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD>=(SELECT GRAD FROM SC WHERE C#='C2')"
+      },
+      {
+        "label": "B",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD IN (SELECT GRAD FROM SC WHERE C#='C2')"
+      },
+      {
+        "label": "C",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD NOT IN (SELECT GRAD FROM SC WHERE C#='C2')"
+      },
+      {
+        "label": "D",
+        "text": "SELECT S# FROM SC WHERE C#='C2' AND GRAD>=ALL(SELECT GRAD FROM SC WHERE C#='C2')"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "解题技巧：需要查SC表，WHERE Cno='C2'。求最高成绩可使用ORDER BY grade DESC配合LIMIT 1，或者使用子查询 WHERE grade = (SELECT MAX(grade)...)。"
+  },
+  {
+    "id": 117,
+    "type": "choice",
+    "question": "检索学生姓名及其所选修课程的课程号和成绩。正确的语句是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM S WHERE S.S#=SC.S#"
+      },
+      {
+        "label": "B",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM SC WHERE S.S#=SC.GRADE (注：原卷语法错误项)"
+      },
+      {
+        "label": "C",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM S, SC WHERE S.S#=SC.S#"
+      },
+      {
+        "label": "D",
+        "text": "SELECT S.SN, SC.C#, SC.GRADE FROM S, SC"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "解题技巧：姓名在Student表，课程号和成绩在SC表。必须使用 JOIN 或 WHERE 条件（Student.Sno = SC.Sno）将两表关联才能正确获取。"
+  },
+  {
+    "id": 118,
+    "type": "choice",
+    "question": "数据库的概念模型独立于（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "具体的机器和DBMS"
+      },
+      {
+        "label": "B",
+        "text": "E-R图"
+      },
+      {
+        "label": "C",
+        "text": "信息世界"
+      },
+      {
+        "label": "D",
+        "text": "现实世界"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "DBMS",
+      "概念模型"
+    ],
+    "explanation": "概念模型（E-R模型）是业务视角的模型，它是给用户和设计者看的，不受限于最后到底是用MySQL、Oracle还是SQL Server来实现。"
+  },
+  {
+    "id": 119,
+    "type": "choice",
+    "question": "候选码中的属性可以有（ ）个？",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "0个"
+      },
+      {
+        "label": "B",
+        "text": "1个"
+      },
+      {
+        "label": "C",
+        "text": "1个或多个"
+      },
+      {
+        "label": "D",
+        "text": "多个"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "候选码",
+      "属性"
+    ],
+    "explanation": "如果一个属性就能唯一标识元组，候选码就包含1个属性（如学号）。如果需要多个属性组合（如学号+课程号），则候选码包含多个属性。"
+  },
+  {
+    "id": 120,
+    "type": "choice",
+    "question": "从E-R模型向关系模型转换时，一个m:n联系转换为关系模式时，该关系模式的码是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "m端实体的码"
+      },
+      {
+        "label": "B",
+        "text": "n端实体的码"
+      },
+      {
+        "label": "C",
+        "text": "m端实体码与n端实体码的组合"
+      },
+      {
+        "label": "D",
+        "text": "重新选取其他属性"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "实体"
+    ],
+    "explanation": "由于m:n的特性，单靠任何一端的主键都无法唯一标识一条联系记录，必须把两端的主键组合在一起作为新表的主键。"
+  },
+  {
+    "id": 121,
+    "type": "choice",
+    "question": "事务的原子性是指（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "事务中包括的所有操作要么都做，要么都不做。"
+      },
+      {
+        "label": "B",
+        "text": "事务一旦提交，对数据库的改变是永久的。"
+      },
+      {
+        "label": "C",
+        "text": "一个事物内部的操作及使用的数据对并发的其他事务是隔离的。"
+      },
+      {
+        "label": "D",
+        "text": "事务必须使数据库从一个一致性状态变到另一个一致性状态。"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "一致性",
+      "原子性",
+      "事务"
+    ],
+    "explanation": "原子性（Atomicity）是指事务包含的所有操作要么全部执行成功，要么全部撤销（回滚），不可被部分执行。"
+  },
+  {
+    "id": 122,
+    "type": "choice",
+    "question": "数据库中的封锁机制是（ ）的主要方法。",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "完整性"
+      },
+      {
+        "label": "B",
+        "text": "安全性"
+      },
+      {
+        "label": "C",
+        "text": "并发控制"
+      },
+      {
+        "label": "D",
+        "text": "恢复"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "封锁协议",
+      "并发控制",
+      "DB"
+    ],
+    "explanation": "封锁（Locking）机制是并发控制的主要方法，用于在多个事务并发访问数据库时，保证数据的隔离性和一致性。"
+  },
+  {
+    "id": 123,
+    "type": "choice",
+    "question": "SQL 中使用方式（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "提示式 SQL"
+      },
+      {
+        "label": "B",
+        "text": "多用户 SQL"
+      },
+      {
+        "label": "C",
+        "text": "嵌入式 SQL"
+      },
+      {
+        "label": "D",
+        "text": "解释式 SQL"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "SQL有两种使用方式：交互式（独立在终端或管理工具中执行）和嵌入式（嵌入到如C、Java等高级编程语言中执行）。"
+  },
+  {
+    "id": 124,
+    "type": "choice",
+    "question": "同一个关系模型的任意两个元组值（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "可全同"
+      },
+      {
+        "label": "B",
+        "text": "不能全同"
+      },
+      {
+        "label": "C",
+        "text": "必须全同"
+      },
+      {
+        "label": "D",
+        "text": "以上都不是"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "元组"
+    ],
+    "explanation": "关系模型基于集合论，集合中没有重复的元素。因此，同一个关系（表）中任意两个元组（行）不能完全相同，这是实体完整性的基础之一。"
+  },
+  {
+    "id": 125,
+    "type": "choice",
+    "question": "在数据库中，产生数据不一致的根本原因是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据存储量太大"
+      },
+      {
+        "label": "B",
+        "text": "没有严格保护数据"
+      },
+      {
+        "label": "C",
+        "text": "未对数据进行完整性控制"
+      },
+      {
+        "label": "D",
+        "text": "数据冗余"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据冗余",
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据不一致的根本原因是数据冗余。即同一数据存在多份副本，当更新操作只修改了部分副本而遗漏了其他副本时，就会产生数据不一致。"
+  },
+  {
+    "id": 126,
+    "type": "tf",
+    "question": "不是所有的视图都可以进行更新，但视图都可以进行插入。",
+    "answer": "错误 （不能更新的视图通常也不能执行插入操作）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "视图",
+      "元组"
+    ],
+    "explanation": "不能更新的视图（如包含聚合函数、GROUP BY、DISTINCT或复杂多表连接的视图）同样也不能进行插入操作。"
+  },
+  {
+    "id": 127,
+    "type": "tf",
+    "question": "SELECT 子句中的目标列可以是表中的属性列，也可以是表达式。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "属性"
+    ],
+    "explanation": "SELECT不仅可以检索表中的基本列，还可以检索常量、算术表达式、字符串拼接以及各种内置函数的结果。"
+  },
+  {
+    "id": 128,
+    "type": "tf",
+    "question": "在SQL语句中表达某个属性X为空，可以使用 WHERE X=NULL。",
+    "answer": "错误 （必须使用 X IS NULL）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "属性"
+    ],
+    "explanation": "在SQL中，NULL表示值未知，不能用等于号（=）比较。必须使用 IS NULL 或 IS NOT NULL 来判断属性是否为空。"
+  },
+  {
+    "id": 129,
+    "type": "tf",
+    "question": "SQL语句中逻辑运算符AND和OR的优先级是一样的。",
+    "answer": "错误 （AND 优先级高于 OR）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "AND的优先级高于OR，在复杂查询中如果同时存在AND和OR，常使用括号来明确逻辑运算的顺序。"
+  },
+  {
+    "id": 130,
+    "type": "tf",
+    "question": "使用 ANY 或 ALL 谓词时必须与比较运算符同时使用。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBS"
+    ],
+    "explanation": "ANY和ALL用于子查询时，前面必须带比较运算符（如>、<、=），例如 > ANY(...) 表示大于子查询结果中的任意一个。"
+  },
+  {
+    "id": 131,
+    "type": "tf",
+    "question": "关系模型中，非主属性不可能出现在任何候选码中。",
+    "answer": "正确 （根据定义，出现在候选码中的属性为主属性）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "候选码",
+      "属性"
+    ],
+    "explanation": "根据规范化理论的定义，出现在任何一个候选码中的属性为主属性，不包含在任何候选码中的属性必然为非主属性。"
+  },
+  {
+    "id": 132,
+    "type": "tf",
+    "question": "在左外连接中，保留的是左边关系中所有的元组。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "元组"
+    ],
+    "explanation": "左外连接在等值连接的基础上，会保留左表（主表）中没有匹配到的所有行，此时右表对应的属性列补NULL。"
+  },
+  {
+    "id": 133,
+    "type": "tf",
+    "question": "关系模式是对关系的描述，关系是关系模式在某一时刻的状态或内容。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型"
+    ],
+    "explanation": "模式是对表结构的静态定义（如列名、数据类型），相对稳定；而关系（表里的数据行）是动态变化的，表示某一时刻的状态。"
+  },
+  {
+    "id": 134,
+    "type": "short",
+    "question": "1. 什么是视图？为什么将SQL中的视图称为“虚表”？\n\n2. 标准答案:\n\n3. 视图是从一个或几个基本表（或视图）导出的表。\n\n4. 视图与基本表不同，是一个虚表，是不实际存储数据的虚表，对视图的更新最终要转化为对基本表的更新。数据库中只存放了视图的定义，而不存放视图对应的数据，这些数据仍存放在原来的基本表中。因此一旦基本表中的数据发生变化，从视图中查询的数据也就随之改变。\n难度系数: 常规",
+    "answer": "",
+    "difficulty": "常规",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "视图",
+      "DB"
+    ],
+    "explanation": "此题要求解释视图的概念和本质。解题技巧：说明视图是由查询定义的逻辑表，数据库中只存其定义而不存其实际数据，数据均来自基本表，故称虚表。"
+  },
+  {
+    "id": 135,
+    "type": "short",
+    "question": "1. 试述采用E-R方法进行数据库概念设计的过程。\n\n2. 标准答案:\n\n3. 需求分析：收集和分析用户需求，明确系统需要管理的业务对象和信息。\n\n4. 确定实体：识别出系统中的主要实体，如“学生”、“课程”等，定义每个实体的属性。\n\n5. 确定关系：分析实体之间的关联，如“学生选课”关系，明确关系的类型（如一对多、多对多）。\n\n6. 定义属性：为每个实体和关系指定具体的属性，确定主键和外键，确保数据的唯一性和完整性。\n\n7. 绘制E-R图：使用图形化工具将实体、属性和关系以E-R图的形式表示出来，直观展示数据库结构。\n\n8. 优化和规范化：检查E-R模型的合理性，消除冗余和依赖，确保模型的规范化程度。\n\n9. 转换为逻辑模型：将E-R模型转化为具体的数据库逻辑模型，准备进行物理设计和实施。\n难度系数: 常规",
+    "answer": "",
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "逻辑模型"
+    ],
+    "explanation": "概念设计流程简答题。解题技巧：分为需求分析、识别实体和属性、建立实体联系、画出E-R图、解决各局部E-R图之间的冲突和冗余这几步。"
+  },
+  {
+    "id": 136,
+    "type": "choice",
+    "question": "关系数据库管理系统能实现的专门关系运算是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "显示、打印、制表"
+      },
+      {
+        "label": "B",
+        "text": "选择、投影、连接"
+      },
+      {
+        "label": "C",
+        "text": "关联、更新、排序"
+      },
+      {
+        "label": "D",
+        "text": "排序、索引、统计"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "DBMS",
+      "投影"
+    ],
+    "explanation": "专门的关系运算包括选择（筛选行）、投影（筛选列）、连接（结合不同表的列）和除法运算。"
+  },
+  {
+    "id": 137,
+    "type": "choice",
+    "question": "在数据库设计中，将E-R图转换为关系数据模型的过程属于（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "物理设计阶段"
+      },
+      {
+        "label": "B",
+        "text": "逻辑设计阶段"
+      },
+      {
+        "label": "C",
+        "text": "概念设计阶段"
+      },
+      {
+        "label": "D",
+        "text": "需求分析阶段"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "DB"
+    ],
+    "explanation": "E-R图是抽象的概念模型，关系模型是机器能处理的逻辑模型。因此，将E-R图转为关系数据模型属于【逻辑结构设计】阶段。"
+  },
+  {
+    "id": 138,
+    "type": "choice",
+    "question": "层次型、网状型和关系型数据库划分的原则是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "记录长度"
+      },
+      {
+        "label": "B",
+        "text": "数据之间的联系方式"
+      },
+      {
+        "label": "C",
+        "text": "文件的大小"
+      },
+      {
+        "label": "D",
+        "text": "联系的复杂程度"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "DB",
+      "元组"
+    ],
+    "explanation": "这三种数据库模型的主要区别在于它们表示实体间联系的方式不同（树形、图、二维表），即数据之间的联系结构方式不同。"
+  },
+  {
+    "id": 139,
+    "type": "choice",
+    "question": "在关系数据库中，实体之间的联系是用（ ）表示的",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "网结构"
+      },
+      {
+        "label": "B",
+        "text": "树结构"
+      },
+      {
+        "label": "C",
+        "text": "线性表"
+      },
+      {
+        "label": "D",
+        "text": "二维表"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "实体",
+      "DB"
+    ],
+    "explanation": "关系模型的一大突出特点，就是用单一的结构——二维表（即关系）来统一表示实体本身以及实体与实体之间的联系。"
+  },
+  {
+    "id": 140,
+    "type": "choice",
+    "question": "数据库设计内容的两个方面包括（ ）",
+    "answer": "D (注：原卷答案如此，但传统数据库理论中通常表述为“结构特性设计和行为特性设计”，此处保留原卷答案)",
+    "options": [
+      {
+        "label": "A",
+        "text": "结构特性设计和行为特性设计"
+      },
+      {
+        "label": "B",
+        "text": "模式设计和内模式设计"
+      },
+      {
+        "label": "C",
+        "text": "内模式设计和物理设计"
+      },
+      {
+        "label": "D",
+        "text": "概念设计和逻辑设计"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "三级模式",
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据库设计包括结构特性设计（设计数据库模式，如表结构）和行为特性设计（设计应用程序、数据流、事务处理等）。"
+  },
+  {
+    "id": 141,
+    "type": "choice",
+    "question": "在数据库中，下列的说法（ ）是不正确的",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库减少了数据冗余"
+      },
+      {
+        "label": "B",
+        "text": "数据库应确保数据更新时的一致性"
+      },
+      {
+        "label": "C",
+        "text": "数据库中数据可共享"
+      },
+      {
+        "label": "D",
+        "text": "数据库避免了一切数据重复"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据冗余",
+      "一致性",
+      "DB"
+    ],
+    "explanation": "此题常考基础概念。例如：数据库不仅存储数据还存储联系；数据库能减少冗余但无法绝对消除冗余；数据库由DBMS管理。解题时需排查这些常见表述的谬误。"
+  },
+  {
+    "id": 142,
+    "type": "choice",
+    "question": "层次型、网状型和关系型数据库划分原则是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "联系的复杂程度"
+      },
+      {
+        "label": "B",
+        "text": "记录长度"
+      },
+      {
+        "label": "C",
+        "text": "文件的大小"
+      },
+      {
+        "label": "D",
+        "text": "数据之间的联系方式"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "DB",
+      "元组"
+    ],
+    "explanation": "考点同138题。划分原则是基于数据之间联系的表示方式，即数据结构的不同（树、网、二维表）。"
+  },
+  {
+    "id": 143,
+    "type": "choice",
+    "question": "数据库应用系统中的核心问题是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库系统设计"
+      },
+      {
+        "label": "B",
+        "text": "数据库管理员"
+      },
+      {
+        "label": "C",
+        "text": "数据库维护"
+      },
+      {
+        "label": "D",
+        "text": "数据库设计"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据库应用系统的核心是数据库的设计。设计良好的数据库结构才能满足应用系统的高效数据存取和共享需求。"
+  },
+  {
+    "id": 144,
+    "type": "choice",
+    "question": "以下选项中描述正确的是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库系统中，数据的物理结构必须与逻辑结构一致"
+      },
+      {
+        "label": "B",
+        "text": "数据库设计是指设计数据库管理系统"
+      },
+      {
+        "label": "C",
+        "text": "数据库技术的根本目标是要解决数据共享的问题"
+      },
+      {
+        "label": "D",
+        "text": "数据库是一个独立的系统，不需要操作系统的支持"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DBMS",
+      "数据共享",
+      "DBS"
+    ],
+    "explanation": "常考知识点包括：数据库的共享性高、数据独立性高、冗余度低、并发控制等，需结合数据库系统特性逐一分析选项。"
+  },
+  {
+    "id": 145,
+    "type": "choice",
+    "question": "在数据管理技术发展过程中，下列关于文件系统与数据库系统主要区别的描述正确的是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库系统具有特定的数据模型"
+      },
+      {
+        "label": "B",
+        "text": "数据库系统具有数据可共享"
+      },
+      {
+        "label": "C",
+        "text": "数据库系统具有专门的数据管理软件"
+      },
+      {
+        "label": "D",
+        "text": "数据库系统具有数据无冗余"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据冗余",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据库系统与文件系统最大的区别在于，数据库系统实现了整体数据的结构化，并由DBMS提供高度的数据独立性和统一管理。"
+  },
+  {
+    "id": 146,
+    "type": "choice",
+    "question": "数据库(DB)、数据库系统(DBS)、数据库管理系统(DBMS)三者之间的关系是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "DBS 就是DB，也就是DBMS"
+      },
+      {
+        "label": "B",
+        "text": "DBMS 包括DB和DBS"
+      },
+      {
+        "label": "C",
+        "text": "DB 包括DBS和DBMS"
+      },
+      {
+        "label": "D",
+        "text": "DBS 包括DB和DBMS"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "关系模型",
+      "DBS"
+    ],
+    "explanation": "DBS（数据库系统）是一个大概念，包含DB（数据本身）和DBMS（管理数据的核心软件），还包括DBA、应用系统和硬件等。"
+  },
+  {
+    "id": 147,
+    "type": "choice",
+    "question": "在数据库中，索引属于哪个选项的内容？（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "概念模式"
+      },
+      {
+        "label": "B",
+        "text": "内模式"
+      },
+      {
+        "label": "C",
+        "text": "外模式"
+      },
+      {
+        "label": "D",
+        "text": "模式"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "三级模式",
+      "索引",
+      "DB"
+    ],
+    "explanation": "索引属于内模式（物理结构设计）。它涉及数据在磁盘上的存储方式和存取路径，对应用开发者和最终用户是透明的。"
+  },
+  {
+    "id": 148,
+    "type": "choice",
+    "question": "数据库系统的应用使数据与程序之间的关系具有（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序调用数据更加方便"
+      },
+      {
+        "label": "B",
+        "text": "更加的依赖性"
+      },
+      {
+        "label": "C",
+        "text": "较高的独立性"
+      },
+      {
+        "label": "D",
+        "text": "数据与程序无关"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据库系统通过两级映像（外模式/模式映像、模式/内模式映像）保证了数据与程序的逻辑独立性和物理独立性。"
+  },
+  {
+    "id": 149,
+    "type": "choice",
+    "question": "能够给出数据库物理存储结构与物理存取方法的是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "逻辑模式"
+      },
+      {
+        "label": "B",
+        "text": "外模式"
+      },
+      {
+        "label": "C",
+        "text": "概念模式"
+      },
+      {
+        "label": "D",
+        "text": "内模式"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "三级模式",
+      "DB"
+    ],
+    "explanation": "内模式（Internal Schema）是数据库最底层的模式，描述了数据在存储介质上的物理组织方式、索引方法和存储路径。"
+  },
+  {
+    "id": 150,
+    "type": "choice",
+    "question": "数据库设计中反映用户对数据要求的模式是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "外模式"
+      },
+      {
+        "label": "B",
+        "text": "概念模式"
+      },
+      {
+        "label": "C",
+        "text": "设计模式"
+      },
+      {
+        "label": "D",
+        "text": "内模式"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "三级模式",
+      "DB"
+    ],
+    "explanation": "外模式（也称子模式或用户模式）是特定用户或应用程序所看到的数据视图，直接反映了不同用户局部的特定数据需求。"
+  },
+  {
+    "id": 151,
+    "type": "choice",
+    "question": "对关系数据库的检索操作可由三种基本关系运算组合而成，这三种基本关系运算不包括（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "比较"
+      },
+      {
+        "label": "B",
+        "text": "选择"
+      },
+      {
+        "label": "C",
+        "text": "连接"
+      },
+      {
+        "label": "D",
+        "text": "投影"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "选择",
+      "DB"
+    ],
+    "explanation": "关系代数的五种基本运算是：并、差、笛卡尔积、投影、选择。不包括的通常是交、连接、除等可导出的运算。"
+  },
+  {
+    "id": 152,
+    "type": "choice",
+    "question": "数据字典是软件需求分析阶段的最重要的工具之一，其最基本的功能是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据维护"
+      },
+      {
+        "label": "B",
+        "text": "数据通讯"
+      },
+      {
+        "label": "C",
+        "text": "数据定义"
+      },
+      {
+        "label": "D",
+        "text": "数据库设计"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "数据定义",
+      "DB"
+    ],
+    "explanation": "数据字典用于存储系统中的所有数据项、数据结构、数据流和数据存储的详细定义，是需求分析阶段的输出，为后续设计提供统一的数据字典说明。"
+  },
+  {
+    "id": 153,
+    "type": "choice",
+    "question": "关于数据模型的描述，以下选项中错误的是（ ）",
+    "answer": "D (注：应为现实世界抽象到计算机世界)",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据模型按不同应用层次分为三种类型：概念数据模型、逻辑数据模型和物理数据模型"
+      },
+      {
+        "label": "B",
+        "text": "数据是现实世界符号的抽象，数据模型是数据特征的抽象"
+      },
+      {
+        "label": "C",
+        "text": "数据模型描述的内容有三个部分：数据结构、数据操作和数据约束"
+      },
+      {
+        "label": "D",
+        "text": "数据库中的数据模型可以将计算机数据库中物理世界的要求反映到复杂的现实世界"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "数据模型是现实世界抽象到机器世界的过程，如果选项将其颠倒，或者描述数据模型三要素有误，即为错误选项。"
+  },
+  {
+    "id": 154,
+    "type": "choice",
+    "question": "关于数据库管理员的描述，以下选项中错误的是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库管理员对多个应用的数据需求作全面规划、设计与集成"
+      },
+      {
+        "label": "B",
+        "text": "数据库管理员不需要做数据库设计"
+      },
+      {
+        "label": "C",
+        "text": "数据库管理员需要完成数据库维护，完成对数据库中数据的安全性、完整性、并发性控制及系统恢复、数据定期转存等工作"
+      },
+      {
+        "label": "D",
+        "text": "对数据库进行规划、设计、维护、监视等管理工作的人员称为数据库管理员"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "DB",
+      "元组"
+    ],
+    "explanation": "DBA负责系统的整体规划、设计、安全管理和性能调优。若选项说DBA不需要懂业务或只负责写代码，则为错误。"
+  },
+  {
+    "id": 155,
+    "type": "choice",
+    "question": "关于数据库设计，以下选项中描述错误的是（ ）",
+    "answer": "D (注：正确顺序应为需求分析、概念设计、逻辑设计、物理设计)",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库设计的基本任务是根据用户对象的信息需求、处理需求和数据库的支持环境设计出数据模式"
+      },
+      {
+        "label": "B",
+        "text": "数据库设计可以采用生命周期法"
+      },
+      {
+        "label": "C",
+        "text": "(选项原卷缺失)"
+      },
+      {
+        "label": "D",
+        "text": "数据库设计四个阶段按顺序为概念设计、需求分析、逻辑设计、物理设计"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "规范的设计流程为：需求分析 -> 概念设计(E-R图) -> 逻辑设计 -> 物理设计 -> 实施 -> 运维。选项若打乱此顺序即错。"
+  },
+  {
+    "id": 156,
+    "type": "tf",
+    "question": "数据库的并发控制是为了防止多个事务同时对数据进行修改，导致数据不一致。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "数据操纵",
+      "事务"
+    ],
+    "explanation": "正确。并发控制旨在解决丢失修改、不可重复读和读脏数据等并发一致性问题，防止多个事务同时修改导致数据混乱。"
+  },
+  {
+    "id": 157,
+    "type": "tf",
+    "question": "数据库的完整性是指数据的正确性和相容性，包括实体完整性和参照完整性。",
+    "answer": "错误 (注：还漏掉了用户定义的完整性)",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "参照完整性",
+      "实体完整性",
+      "实体"
+    ],
+    "explanation": "错误。关系模型的完整性约束必须包含三大类：实体完整性、参照完整性和用户定义的完整性。"
+  },
+  {
+    "id": 158,
+    "type": "tf",
+    "question": "数据库索引可以提高数据检索的效率，但会降低数据插入和更新的性能。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据操纵",
+      "索引",
+      "DB"
+    ],
+    "explanation": "正确。索引可以加速查询，但在插入、删除、更新数据时，系统需同步维护索引的树形结构，从而增加了写操作的开销。"
+  },
+  {
+    "id": 159,
+    "type": "tf",
+    "question": "数据库的外键约束确保了两个表之间的数据一致性，可以防止数据的丢失。",
+    "answer": "错误 (注：外键防止的是非法数据的插入/更新/删除，而非防止数据丢失)",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "数据操纵",
+      "一致性",
+      "DB"
+    ],
+    "explanation": "错误。外键是为了保证参照完整性，防止插入无效的外键数据或删除正在被引用的主键数据，而不是用来防止硬件故障导致的数据丢失。"
+  },
+  {
+    "id": 160,
+    "type": "tf",
+    "question": "数据库的范式级别越高，数据冗余度越低，所以数据库的范式越高越好。",
+    "answer": "错误 (注：范式过高会导致查询时频繁进行多表连接，降低系统性能，需结合实际折中)",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "数据冗余",
+      "数据操纵",
+      "DB"
+    ],
+    "explanation": "错误。范式过高（如达到BCNF或4NF）会导致表被过度分解，查询时需要进行大量的多表连接（JOIN），严重降低系统性能。实际设计常需折中进行反规范化。"
+  },
+  {
+    "id": 161,
+    "type": "tf",
+    "question": "【题目缺失还原】数据库的系统故障恢复通常是通过日志记录和事务回滚来实现的。",
+    "answer": "正确",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "事务",
+      "DB",
+      "元组"
+    ],
+    "explanation": "正确。系统故障恢复利用日志文件（Log），对未完成的事务进行撤销（UNDO），对已提交但未写入磁盘的事务进行重做（REDO）。"
+  },
+  {
+    "id": 162,
+    "type": "short",
+    "question": "一个简单的图书馆管理系统数据库包含实体：图书(Book)、作者(Author)、读者(Reader)和借阅记录(Borrowing)。其中图书表(Book)包含字段：book_id(书号)、title(书名)、author_id(作者ID)、author_sq(作者排序)、publisher(出版社)、publication_year(出版年份)。\n(1) 该设计属于第几范式？原因是什么？\n(2) 可能存在什么问题？如何分解以提升范式？列出分解后的表及范式级别。",
+    "answer": "(1) 属于1NF。原因：字段均为原子值，但存在部分依赖（如 title 仅依赖 book_id，不依赖可能的联合主键 book_id + author_sq），不满足2NF。\n\n(2) 问题：数据冗余、更新异常、插入/删除异常。\n\n分解方法：\n\n图书基本表：book(book_id, title, publisher, publication_year)，满足 3NF；\n\n图书作者关系表：book_author(book_id, author_id, author_sq)，满足 3NF。",
+    "difficulty": "常规",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "第三范式",
+      "关系模型",
+      "第一范式"
+    ],
+    "explanation": "此题为综合设计题。(1)属于1NF，因为字段不可再分，但非主属性部分依赖于主键；(2)问题包括数据冗余、更新/插入/删除异常。分解时应拆分出独立的Book表和Book-Author关联表以满足3NF。"
+  },
+  {
+    "id": 163,
+    "type": "short",
+    "question": "在银行系统中，客户A和B同时向账户C转账，若数据库无并发控制机制，可能出现什么问题？如何解决？",
+    "answer": "问题：丢失更新（例如 C 初始余额100，A转50、B转30，可能导致最终余额仅为130或150，丢失了一笔转账的更新）。\n\n解决办法：\n\n悲观锁：锁定C的账户记录，事务操作期间其他事务等待；\n\n乐观锁：使用版本号控制，更新时检查版本一致性；\n\n事务隔离级别：设置为“可重复读”（Repeatable Read）或“串行化”（Serializable）；\n\n原子操作：使用 UPDATE account SET balance = balance + 50 WHERE id = 'C' 直接更新。",
+    "difficulty": "常规",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "不可重复读",
+      "并发控制",
+      "数据操纵"
+    ],
+    "explanation": "此题为并发控制综合题。问题为并发引起的“丢失修改”。解决办法可通过加锁机制（悲观锁或乐观锁）、提高事务隔离级别，或使用数据库原生支持的原子更新语句（如UPDATE ... SET bal=bal+x）。"
+  },
+  {
+    "id": 164,
+    "type": "choice",
+    "question": "在数据库系统的人员中，负责DBS的正常运行，承担创建、监控和维护数据库结构责任的是（ ）",
+    "answer": "D",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DBS",
+      "DB",
+      "元组"
+    ],
+    "explanation": "DBA（数据库管理员）是专门负责数据库日常运行、监控、授权和结构维护的核心管理人员，其权限最高。",
+    "options": [
+      {
+        "label": "A",
+        "text": "终端用户"
+      },
+      {
+        "label": "B",
+        "text": "程序员"
+      },
+      {
+        "label": "C",
+        "text": "数据库设计人员"
+      },
+      {
+        "label": "D",
+        "text": "DBA"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "type": "choice",
+    "question": "数据模型的三个要素分别是（ ）",
+    "answer": "B",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "用户自定义完整性",
+      "实体完整性",
+      "参照完整性"
+    ],
+    "explanation": "数据模型的三要素是数据结构（描述静态特性）、数据操作（描述动态特性）和完整性约束条件（描述语义规则）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实体完整性、参照完整性、用户自定义完整性"
+      },
+      {
+        "label": "B",
+        "text": "数据结构、数据操作、完整性约束"
+      },
+      {
+        "label": "C",
+        "text": "数据增加、数据修改、数据查询"
+      },
+      {
+        "label": "D",
+        "text": "外模式、模式、内模式"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "type": "choice",
+    "question": "概念模型是现实世界的第一层抽象，这一类模型中最著名的模型是（ ）",
+    "answer": "D",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "概念模型",
+      "逻辑模型"
+    ],
+    "explanation": "概念模型是现实世界到机器世界的过渡，最著名且应用最广泛的概念模型工具是陈品山提出的实体-关系模型（E-R模型）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "层次模型"
+      },
+      {
+        "label": "B",
+        "text": "关系模型"
+      },
+      {
+        "label": "C",
+        "text": "网状模型"
+      },
+      {
+        "label": "D",
+        "text": "实体-关系模型"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "type": "choice",
+    "question": "用户或应用程序看到的那部分局部逻辑结构和特征的描述是（ ）模式。",
+    "answer": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "三级模式"
+    ],
+    "explanation": "子模式（外模式）是对用户或应用程序看到的那部分局部逻辑结构和特征的描述。",
+    "options": [
+      {
+        "label": "A",
+        "text": "模式"
+      },
+      {
+        "label": "B",
+        "text": "物理模式"
+      },
+      {
+        "label": "C",
+        "text": "子模式"
+      },
+      {
+        "label": "D",
+        "text": "内模式"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "type": "choice",
+    "question": "在数据库系统中，提供程序间物理独立性的是（ ）",
+    "answer": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据独立",
+      "三级模式",
+      "两级映射"
+    ],
+    "explanation": "模式/内模式映像保证了数据的物理独立性，使得物理存储结构改变时不影响逻辑模式和应用程序。",
+    "options": [
+      {
+        "label": "A",
+        "text": "模式/外模式映射"
+      },
+      {
+        "label": "B",
+        "text": "模式/内模式映射"
+      },
+      {
+        "label": "C",
+        "text": "外模式/内模式映像"
+      },
+      {
+        "label": "D",
+        "text": "子模式/模式映像"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "type": "choice",
+    "question": "数据库三级体系结构中，内模式是对（ ）",
+    "answer": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "三级模式",
+      "DB"
+    ],
+    "explanation": "内模式是对数据库物理结构和存储方式的描述，即外存数据组织的描述。",
+    "options": [
+      {
+        "label": "A",
+        "text": "内存数据组织的描述"
+      },
+      {
+        "label": "B",
+        "text": "外存数据组织的描述"
+      },
+      {
+        "label": "C",
+        "text": "逻辑数据组织的描述"
+      },
+      {
+        "label": "D",
+        "text": "用户数据组织的描述"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "type": "choice",
+    "question": "关系数据库管理系统能实现的关系运算包括（ ）",
+    "answer": "B",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "DBMS",
+      "投影"
+    ],
+    "explanation": "关系数据库管理系统提供的基本关系运算主要包括选择、投影和连接。",
+    "options": [
+      {
+        "label": "A",
+        "text": "排序、索引、统计"
+      },
+      {
+        "label": "B",
+        "text": "选择、投影、连接"
+      },
+      {
+        "label": "C",
+        "text": "关联、更新、排序"
+      },
+      {
+        "label": "D",
+        "text": "显示、打印、制表"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "type": "choice",
+    "question": "在定义索引时，使每一个索引值只对应唯一的记录值，则应使用（ ）",
+    "answer": "A",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "索引",
+      "元组"
+    ],
+    "explanation": "UNIQUE 约束用于定义唯一索引，使每一个索引值只对应唯一的记录值，保证数据的唯一性。",
+    "options": [
+      {
+        "label": "A",
+        "text": "UNIQUEB、CLUSTERC、DISTINCTD、RESTRICT"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "type": "choice",
+    "question": "数据库类型是按照（ ）来划分的。",
+    "answer": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据库的类型主要是按照其采用的数据模型（如层次模型、网状模型、关系模型等）来划分的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "文件形式"
+      },
+      {
+        "label": "B",
+        "text": "数据模型"
+      },
+      {
+        "label": "C",
+        "text": "记录形式"
+      },
+      {
+        "label": "D",
+        "text": "数据存取方法"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "type": "choice",
+    "question": "在数据系统中，对存取权限的定义称为（ ）",
+    "answer": "A",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "授权"
+    ],
+    "explanation": "在数据库系统中，对用户存取权限的定义和分配称为授权（Authorization）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "授权"
+      },
+      {
+        "label": "B",
+        "text": "定义"
+      },
+      {
+        "label": "C",
+        "text": "审计"
+      },
+      {
+        "label": "D",
+        "text": "命令"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "type": "choice",
+    "question": "数据库管理系统通常提供授权功能来控制不同用户访问数据的权限，这主要是为了实现数据库的（ ）",
+    "answer": "D",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "DBMS",
+      "一致性",
+      "DB"
+    ],
+    "explanation": "授权功能控制不同用户访问数据的权限，其核心目的是为了保障数据库的安全性，防止非法访问。",
+    "options": [
+      {
+        "label": "A",
+        "text": "可靠性"
+      },
+      {
+        "label": "B",
+        "text": "一致性"
+      },
+      {
+        "label": "C",
+        "text": "完整性"
+      },
+      {
+        "label": "D",
+        "text": "安全性"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "type": "choice",
+    "question": "下列SQL语句中，能够实现“收回用户ZHAO对学生表(STUD)中学号(XH)的修改权”这一功能的是（ ）",
+    "answer": "C",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "数据操纵",
+      "属性",
+      "授权"
+    ],
+    "explanation": "收回权限使用 REVOKE 语句。语法为：REVOKE 权限 ON 对象 FROM 用户。因此应选C。",
+    "options": [
+      {
+        "label": "A",
+        "text": "REVOKE UPDATE(XH) ON TABLE FROM ZHAOB、REVOKE UPDATE(XH) ON TABLE FROM PUBLICC、REVOKE UPDATE(XH) ON STUD FROM ZHAOD、REVOKE UPDATE(XH) ON STUD FROM PUBLIC"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "type": "choice",
+    "question": "在数据库系统中，保证数据及语义正确和有效的功能是（ ）",
+    "answer": "D",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "完整性控制用于保证数据库中数据及语义的正确性和相容性，防止不符合语义的错误数据输入。",
+    "options": [
+      {
+        "label": "A",
+        "text": "并发控制"
+      },
+      {
+        "label": "B",
+        "text": "存取控制"
+      },
+      {
+        "label": "C",
+        "text": "安全控制"
+      },
+      {
+        "label": "D",
+        "text": "完整性控制"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "type": "choice",
+    "question": "关于主键约束以下说法错误的是（ ）",
+    "answer": "C",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "主码"
+    ],
+    "explanation": "主键的定义要求字段既要唯一又不能为NULL，因此允许空值的字段上不能定义主键约束。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个表中只能设置一个主键约束"
+      },
+      {
+        "label": "B",
+        "text": "允许空值的字段上不能定义主键约束"
+      },
+      {
+        "label": "C",
+        "text": "允许空值的字段上可以定义主键约束"
+      },
+      {
+        "label": "D",
+        "text": "可以将包含多个字段的字段组合设置为主键"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "type": "choice",
+    "question": "数据库系统的应用使数据与程序之间的关系具有（ ）",
+    "answer": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据库系统通过三级模式和两级映像，使得数据与程序之间具有较高的独立性（包括逻辑独立性和物理独立性）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序调用数据更加方便"
+      },
+      {
+        "label": "B",
+        "text": "更加的依赖性"
+      },
+      {
+        "label": "C",
+        "text": "较高的独立性"
+      },
+      {
+        "label": "D",
+        "text": "数据与程序无关"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "type": "choice",
+    "question": "能够给出数据库物理存储结构与物理存取方法的是（ ）",
+    "answer": "D",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "三级模式",
+      "DB"
+    ],
+    "explanation": "内模式（物理模式）给出了数据库的物理存储结构与物理存取方法的描述。",
+    "options": [
+      {
+        "label": "A",
+        "text": "逻辑模式"
+      },
+      {
+        "label": "B",
+        "text": "外模式"
+      },
+      {
+        "label": "C",
+        "text": "概念模式"
+      },
+      {
+        "label": "D",
+        "text": "内模式"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "type": "choice",
+    "question": "数据库设计中反映用户对数据要求的模式是（ ）",
+    "answer": "A",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "三级模式",
+      "DB"
+    ],
+    "explanation": "外模式（子模式或用户模式）反映了特定用户或应用程序对数据要求的局部视图。",
+    "options": [
+      {
+        "label": "A",
+        "text": "外模式"
+      },
+      {
+        "label": "B",
+        "text": "概念模式"
+      },
+      {
+        "label": "C",
+        "text": "设计模式"
+      },
+      {
+        "label": "D",
+        "text": "内模式"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "type": "choice",
+    "question": "关于数据库管理员的描述，以下选项中错误的是（ ）",
+    "answer": "B",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据库管理员（DBA）的职责非常广泛，不仅包括规划、维护和监控，也需要参与并负责数据库的全面设计工作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库管理员对多个应用的数据需求作全面规划、设计与集成"
+      },
+      {
+        "label": "B",
+        "text": "数据库管理员不需要做数据库设计"
+      },
+      {
+        "label": "C",
+        "text": "数据库管理员需要完成数据库维护，完成对数据库中数据的安全性、完整性、并发性控制及系统恢复、数据定期转存等工作"
+      },
+      {
+        "label": "D",
+        "text": "对数据库进行规划、设计、维护、监视等管理工作的人员称为数据库管理员"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "type": "choice",
+    "question": "关于数据库设计，以下选项中描述错误的是（ ）",
+    "answer": "D",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "数据库设计的基本阶段顺序通常为：需求分析、概念结构设计、逻辑结构设计、物理结构设计。选项D顺序错误。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库设计的基本任务是根据用户对象的信息需求、处理需求和数据库的支持环境设计出数据模式"
+      },
+      {
+        "label": "B",
+        "text": "数据库设计可以采用生命周期法"
+      },
+      {
+        "label": "C",
+        "text": "(选项略)"
+      },
+      {
+        "label": "D",
+        "text": "数据库设计四个阶段按顺序为概念设计、需求分析、逻辑设计、物理设计"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "type": "tf",
+    "question": "数据库的完整性是指数据的正确性和相容性，包括实体完整性和参照完整性。",
+    "answer": "错误 （还包含用户定义的完整性）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "参照完整性",
+      "实体完整性",
+      "实体"
+    ],
+    "explanation": "数据库的完整性不仅包括实体完整性和参照完整性，还包括用户自定义的完整性，所以单纯说只包括前两者是错误的。"
+  },
+  {
+    "id": 184,
+    "type": "tf",
+    "question": "数据库索引可以提高数据检索的效率，但会降低数据插入和更新的性能。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据操纵",
+      "索引",
+      "DB"
+    ],
+    "explanation": "索引虽然可以大幅提升查询检索的效率，但在数据插入、更新和删除时需要同步维护索引，因此会增加系统开销，降低更新性能。"
+  },
+  {
+    "id": 185,
+    "type": "tf",
+    "question": "数据库的外键约束确保了两个表之间的数据一致性，可以防止数据的丢失。",
+    "answer": "错误 （外键主要防止非法关联数据的变动，而非直接防止“数据丢失”）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "一致性",
+      "DB",
+      "外码"
+    ],
+    "explanation": "外键约束主要是为了维护表与表之间的参照完整性，防止破坏关联关系，而不是直接用来“防止数据丢失”。"
+  },
+  {
+    "id": 186,
+    "type": "tf",
+    "question": "数据库的范式级别越高，数据冗余度越低，所以数据库的范式越高越好。",
+    "answer": "错误 （应根据实际业务平衡性能与范式）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "数据冗余",
+      "DB"
+    ],
+    "explanation": "范式级别越高，冗余度越低，但往往需要将表拆分得越细，这会导致查询时需要进行大量的表连接操作，影响性能。因此在实际设计中，常常需要根据业务需求进行适当的“反范式化”。"
+  },
+  {
+    "id": 187,
+    "type": "tf",
+    "question": "数据库的系统故障恢复通常是通过日志记录和事务回滚来实现的。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "事务",
+      "DB",
+      "元组"
+    ],
+    "explanation": "系统故障恢复通常依赖于日志记录（Log）。在系统重启后，通过撤销（Undo）未提交事务和重做（Redo）已提交事务来恢复数据状态。"
+  },
+  {
+    "id": 188,
+    "type": "tf",
+    "question": "SELECT 子句中的目标列可以是表中的属性列，也可以是表达式。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "属性"
+    ],
+    "explanation": "SELECT 子句的目标列非常灵活，既可以是表中的属性列，也可以是算术表达式、字符串常量或函数等。"
+  },
+  {
+    "id": 189,
+    "type": "tf",
+    "question": "SQL语句中逻辑运算符AND和OR的优先级是一样的。",
+    "answer": "错误 （AND 优先级高于 OR）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "在SQL中，逻辑运算符 AND 的优先级高于 OR。如果不加括号，会先计算 AND 两边的表达式。"
+  },
+  {
+    "id": 190,
+    "type": "choice",
+    "question": "( )是长期存储在计算机内、有组织的、可共享的大量数据的集合。",
+    "answer": "A",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据库（DB）是长期存储在计算机内、有组织的、可共享的大量数据的集合。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库"
+      },
+      {
+        "label": "B",
+        "text": "数据库管理系统"
+      },
+      {
+        "label": "C",
+        "text": "数据结构"
+      },
+      {
+        "label": "D",
+        "text": "数据库系统"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "type": "choice",
+    "question": "在数据库系统的人员中，负责DBS的正常运行，承担创建、监控和维护数据库结构责任的是（ ）",
+    "answer": "D",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DBS",
+      "DB",
+      "元组"
+    ],
+    "explanation": "数据库管理员（DBA）负责数据库的全面规划、日常监控、性能优化以及系统的正常运行维护。",
+    "options": [
+      {
+        "label": "A",
+        "text": "终端用户"
+      },
+      {
+        "label": "B",
+        "text": "程序员"
+      },
+      {
+        "label": "C",
+        "text": "数据库设计人员"
+      },
+      {
+        "label": "D",
+        "text": "DBA"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "type": "choice",
+    "question": "数据模型的三个要素分别是（ ）",
+    "answer": "B",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "用户自定义完整性",
+      "实体完整性",
+      "参照完整性"
+    ],
+    "explanation": "数据模型通常由数据结构、数据操作和完整性约束这三个要素组成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实体完整性、参照完整性、用户自定义完整性"
+      },
+      {
+        "label": "B",
+        "text": "数据结构、数据操作、完整性约束"
+      },
+      {
+        "label": "C",
+        "text": "数据增加、数据修改、数据查询"
+      },
+      {
+        "label": "D",
+        "text": "外模式、模式、内模式"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "type": "choice",
+    "question": "概念模型是现实世界的第一层抽象，这一类模型中最著名的模型是（ ）",
+    "answer": "D",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "概念模型",
+      "逻辑模型"
+    ],
+    "explanation": "实体-关系模型（E-R模型）是数据库概念设计中最常用、最著名的概念数据模型。",
+    "options": [
+      {
+        "label": "A",
+        "text": "层次模型"
+      },
+      {
+        "label": "B",
+        "text": "关系模型"
+      },
+      {
+        "label": "C",
+        "text": "网状模型"
+      },
+      {
+        "label": "D",
+        "text": "实体-关系模型"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "type": "choice",
+    "question": "用户或应用程序看到的那部分局部逻辑结构和特征的描述是（ ）模式。",
+    "answer": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "三级模式"
+    ],
+    "explanation": "子模式也称为外模式，它反映了某一类用户或应用程序所看到的局部数据的逻辑结构。",
+    "options": [
+      {
+        "label": "A",
+        "text": "模式"
+      },
+      {
+        "label": "B",
+        "text": "物理模式"
+      },
+      {
+        "label": "C",
+        "text": "子模式"
+      },
+      {
+        "label": "D",
+        "text": "内模式"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "type": "choice",
+    "question": "在数据库系统中，提供程序间物理独立性的是（ ）",
+    "answer": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据独立",
+      "三级模式",
+      "两级映射"
+    ],
+    "explanation": "模式/内模式映像的建立和修改，能够使得底层物理存储改变时，逻辑模式保持不变，从而提供物理独立性。",
+    "options": [
+      {
+        "label": "A",
+        "text": "模式/外模式映射"
+      },
+      {
+        "label": "B",
+        "text": "模式/内模式映射"
+      },
+      {
+        "label": "C",
+        "text": "外模式/内模式映像"
+      },
+      {
+        "label": "D",
+        "text": "子模式/模式映像"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "type": "choice",
+    "question": "数据库三级体系结构中，内模式是对（ ）",
+    "answer": "B   8-9、(关系代数运算)(注：原卷涉及关系图示的自然连接与运算，通常考查交集、连接运算的笛卡尔积原理。请在题库中标记此处需配合对应的行列数据表练习。)10、关系数据库管理系统能实现的关系运算包括（ ）A、排序、索引、统计B、选择、投影、连接C、关联、更新、排序D、显示、打印、制表正确答案: B",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "笛卡尔积",
+      "关系代数"
+    ],
+    "explanation": "内模式描述外存数据组织。关系数据库的基本运算包括选择、投影和连接。",
+    "options": [
+      {
+        "label": "A",
+        "text": "内存数据组织的描述"
+      },
+      {
+        "label": "B",
+        "text": "外存数据组织的描述"
+      },
+      {
+        "label": "C",
+        "text": "逻辑数据组织的描述"
+      },
+      {
+        "label": "D",
+        "text": "用户数据组织的描述"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "type": "sql",
+    "question": "在关系Student中，哪一个元组不符合完整性约束（ ）(注：根据上下文通常考查外码约束，即子表中的外码值在主表中不存在)",
+    "answer": "待定（需根据具体表数据判断）",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "元组",
+      "外码"
+    ],
+    "explanation": "外码的取值必须要么为空，要么等于其被参照表中某个主码的值，这是参照完整性的基本要求。"
+  },
+  {
+    "id": 198,
+    "type": "choice",
+    "question": "下面对于关系的叙述中，不正确的是（ ）",
+    "answer": "C",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "元组",
+      "属性"
+    ],
+    "explanation": "关系是一个二维表，但并非所有的二维表都是关系，关系需要满足列是同质的、行不可重复、属性不可再分等性质。",
+    "options": [
+      {
+        "label": "A",
+        "text": "关系中的每个属性是不可分解的"
+      },
+      {
+        "label": "B",
+        "text": "在关系中元组的顺序是无关紧要的"
+      },
+      {
+        "label": "C",
+        "text": "任意的一个二维表都是一个关系"
+      },
+      {
+        "label": "D",
+        "text": "关系中不允许出现重复元组"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "type": "sql",
+    "question": "下面能够新插入关系S的元组是（ ）",
+    "answer": "待定（考查参照完整性，需根据表数据对比）",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "参照完整性",
+      "关系模型",
+      "数据操纵"
+    ],
+    "explanation": "插入新元组时，若包含外键，其外键值必须在对应的父表中已经存在，否则将违反参照完整性。"
+  },
+  {
+    "id": 200,
+    "type": "choice",
+    "question": "在定义索引时，使每一个索引值只对应唯一的记录值，则应使用（ ）",
+    "answer": "A",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "索引",
+      "元组"
+    ],
+    "explanation": "使用 UNIQUE 关键字定义的索引为唯一索引，确保索引列中的每个值都是唯一的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "UNIQUEB、CLUSTERC、DISTINCTD、RESTRICT"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "type": "choice",
+    "question": "数据库类型是按照（ ）来划分的。",
+    "answer": "B",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DB",
+      "元组"
+    ],
+    "explanation": "现代数据库通常是根据数据模型来划分的，如关系型数据库、文档型数据库、图数据库等。",
+    "options": [
+      {
+        "label": "A",
+        "text": "文件形式"
+      },
+      {
+        "label": "B",
+        "text": "数据模型"
+      },
+      {
+        "label": "C",
+        "text": "记录形式"
+      },
+      {
+        "label": "D",
+        "text": "数据存取方法"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "type": "choice",
+    "question": "在数据系统中，对存取权限的定义称为（ ）",
+    "answer": "A",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "授权"
+    ],
+    "explanation": "授权机制允许数据库管理员或对象拥有者将操作权限赋予其他用户，从而实现访问控制。",
+    "options": [
+      {
+        "label": "A",
+        "text": "授权"
+      },
+      {
+        "label": "B",
+        "text": "定义"
+      },
+      {
+        "label": "C",
+        "text": "审计"
+      },
+      {
+        "label": "D",
+        "text": "命令"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "type": "choice",
+    "question": "数据库管理系统通常提供授权功能来控制不同用户访问数据的权限，这主要是为了实现数据库的（ ）",
+    "answer": "D",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "DBMS",
+      "一致性",
+      "DB"
+    ],
+    "explanation": "限制和控制用户对数据的访问权限是数据库安全性保护的重要手段，防止数据泄露或被非法修改。",
+    "options": [
+      {
+        "label": "A",
+        "text": "可靠性"
+      },
+      {
+        "label": "B",
+        "text": "一致性"
+      },
+      {
+        "label": "C",
+        "text": "完整性"
+      },
+      {
+        "label": "D",
+        "text": "安全性"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "type": "choice",
+    "question": "下列SQL语句中，能够实现“收回用户ZHAO 对学生表(STUD)中学号(XH)的修改权”这一功能的是（ ）",
+    "answer": "C",
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "数据操纵",
+      "属性",
+      "授权"
+    ],
+    "explanation": "SQL中使用 REVOKE 语句回收权限。收回 ZHAO 对 STUD 表 XH 列的 UPDATE 权限应使用：REVOKE UPDATE(XH) ON STUD FROM ZHAO。",
+    "options": [
+      {
+        "label": "A",
+        "text": "REVOKE UPDATE(XH) ON TABLE FROM ZHAOB、REVOKE UPDATE(XH) ON TABLE FROM PUBLICC、REVOKE UPDATE(XH) ON STUD FROM ZHAOD、REVOKE UPDATE(XH) ON STUD FROM PUBLIC"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "type": "choice",
+    "question": "在数据库系统中，保证数据及语义正确和有效的功能是（ ）",
+    "answer": "D",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "并发控制",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据完整性是指数据的正确性和相容性，完整性控制系统就是为了防止非法或错误的数据进入数据库。",
+    "options": [
+      {
+        "label": "A",
+        "text": "并发控制"
+      },
+      {
+        "label": "B",
+        "text": "存取控制"
+      },
+      {
+        "label": "C",
+        "text": "安全控制"
+      },
+      {
+        "label": "D",
+        "text": "完整性控制"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "type": "choice",
+    "question": "关于主键约束以下说法错误的是（ ）",
+    "answer": "C",
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "主码"
+    ],
+    "explanation": "主键约束（PRIMARY KEY）隐含了非空（NOT NULL）和唯一（UNIQUE）的特性，因此包含空值的字段不能作为主键。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个表中只能设置一个主键约束"
+      },
+      {
+        "label": "B",
+        "text": "允许空值的字段上不能定义主键约束"
+      },
+      {
+        "label": "C",
+        "text": "允许空值的字段上可以定义主键约束"
+      },
+      {
+        "label": "D",
+        "text": "可以将包含多个字段的字段组合设置为主键"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "type": "tf",
+    "question": "数据管理技术经历了人工管理、文件管理和数据库系统三个阶段。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据管理技术的发展历史一般被划分为人工管理阶段、文件系统阶段和数据库系统阶段。"
+  },
+  {
+    "id": 208,
+    "type": "tf",
+    "question": "保护数据库，防止未经授权的或不合法的使用造成的数据泄漏、更改破坏，这是指数据的完整性。",
+    "answer": "错误（这是指安全性）",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第四章 数据库安全性",
+    "conceptKeys": [
+      "DB",
+      "授权"
+    ],
+    "explanation": "防止未经授权或不合法的使用造成数据泄露和破坏，属于数据的安全性范畴，而非完整性。"
+  },
+  {
+    "id": 209,
+    "type": "tf",
+    "question": "已知学生关系student(学号,姓名,系别)，如果规定学号的值域必须是7个数字组成的字符串，则这一个规则属于用户定义完整性约束。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "用户自定义完整性",
+      "关系模型"
+    ],
+    "explanation": "规定学号的值域属于针对具体应用环境的数据约束，这属于用户定义完整性约束。"
+  },
+  {
+    "id": 210,
+    "type": "tf",
+    "question": "在关系数据模型中，实体与实体之间的联系统一用表来表示。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "实体",
+      "联系"
+    ],
+    "explanation": "关系数据模型的最大特点是，不仅将实体表示为关系（表），而且将实体之间的联系也统一用关系（表）来表示。"
+  },
+  {
+    "id": 211,
+    "type": "tf",
+    "question": "关系模型中有三类完整性约束，并且关系模型必须满足这三类完整性约束。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型"
+    ],
+    "explanation": "关系模型必须满足实体完整性和参照完整性这两类约束。用户定义完整性是根据应用需求可选的，但通常作为总体完整性要求之一。"
+  },
+  {
+    "id": 212,
+    "type": "tf",
+    "question": "SELECT 子句中的目标列可以是表中的属性列，也可以是表达式。",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "属性"
+    ],
+    "explanation": "SELECT不仅可以查询列，还能进行计算，如 SELECT age + 1，或直接查询表达式。"
+  },
+  {
+    "id": 213,
+    "type": "tf",
+    "question": "SQL语句中逻辑运算符AND和OR的优先级是一样的。",
+    "answer": "错误（AND 高于 OR）   (注：原卷中第",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵"
+    ],
+    "explanation": "SQL语法规定逻辑运算符的优先级为：NOT > AND > OR。"
+  },
+  {
+    "id": 214,
+    "type": "tf",
+    "question": "20 题判断题因图片截断原因未获取完整题干，建议跳过或根据后续练习补充。)",
+    "answer": "",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBS"
+    ],
+    "explanation": "尽管题目可能截断，但通常数据库系统的考点围绕其基本概念展开，如DBS包含DB、DBMS和DBA等。"
+  },
+  {
+    "id": 215,
+    "type": "short",
+    "question": "试述采用E-R方法进行数据库概念设计的过程。参考答案:需求分析：收集和分析用户需求，明确业务对象和信息 。  确定实体：识别主要实体并定义属性 。  确定关系：分析实体关联类型（1:1, 1:n, m:n） 。  定义属性：确定主键和外键，确保唯一性与完整性 。  绘制E-R图：直观展示结构 。  优化和规范化：消除冗余 。  转换为逻辑模型：转为关系模型，准备物理设计 。",
+    "answer": "",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "关系模型",
+      "逻辑模型"
+    ],
+    "explanation": "概念设计过程主要包括需求分析、识别实体和属性、确定实体之间的联系、绘制E-R图并进行规范化优化。"
+  },
+  {
+    "id": 216,
+    "type": "sql",
+    "question": "1. 查询 university 数据库的 students 表中性别为“男”且专业为“计算机科学”的学生数据。SQLUSE university;\nSELECT *\nFROM students\nWHERE gender = '男' AND major = '计算机科学';\n\n2. 查询 university 数据库的 students 表中，每个专业的学生人数，返回专业名称和对应人数两列。SQLUSE university;\nSELECT major, COUNT(student_id) AS student_count\nFROM students\nGROUP BY major;\n\n3. 查询 university 数据库中每个学生的姓名、选修的课程名称及对应的成绩（涉及 students、courses、grades 三张表）。SQLUSE university;\nSELECT s.student_name, c.course_name, g.grade\nFROM students s\nJOIN grades g ON s.student_id = g.student_id\nJOIN courses c ON g.course_id = c.course_id;\n\n4. 查询 university 数据库中每个学生的最高成绩和最低成绩，返回学生ID、最高成绩、最低成绩三列。SQLUSE university;\nSELECT student_id, MAX(grade), MIN(grade)\nFROM grades\nGROUP BY student_id;\n\n5. 查询名称中包含 Mall 的商店名称，结果按所在城市降序排列。\n\n6. SQL\nUSE SPGY;\nSELECT Sname\nFROM S\nWHERE Sname LIKE '%Mall%'\nORDER BY City DESC;\n\n7. 查询商品单价高于所有商品平均价格的商品名称和商品单价。\n\n8. SQL\nUSE SPGY;\nSELECT Pname, Price\nFROM P\nWHERE Price > (SELECT AVG(Price) FROM P);\n\n9. 检索不销售商品名称为 bag 的商店编号（该商店没有 bag 的库存记录）。\n\n10. SQL\nUSE SPGY;\nSELECT DISTINCT S.Sno\nFROM S\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM SP\n    JOIN P ON SP.Pno = P.Pno\n    WHERE SP.Sno = S.Sno AND P.Pname = 'bag'\n);\n\n11. 将商店名称为 Tongcheng 的商店中商品 pen 的库存数量减 50。\n\n12. SQL\nUSE SPGY;\nUPDATE SP\nSET QTY = QTY - 50\nWHERE Sno IN (SELECT Sno FROM S WHERE Sname = 'Tongcheng')\n  AND Pno IN (SELECT Pno FROM P WHERE Pname = 'pen');",
+    "answer": "(216): \n\n\n(217): \n\n\n(218): \n\n\n(219): \n\n\n(220): \n\n\n(221): \n\n\n(222): \n\n\n(223): \n",
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据操纵",
+      "DB"
+    ],
+    "explanation": "查询时利用 WHERE 子句结合 AND 运算符可以实现多条件的精确过滤。"
+  },
+  {
+    "id": 224,
+    "type": "short",
+    "question": "1. 关系范式题\n题目： 设有一个反映教师参加科研项目的关系模式：R(教师号, 项目名称, 科研工作量, 项目类别, 项目金额, 负责人)。\n已知 FD = { (教师号, 项目名称) -> 科研工作量, 项目名称 -> 项目类别, 项目名称 -> 负责人, 项目名称 -> 项目金额 }。\n\n2. 求模式 R 的候选码。\n\n3. R 最高达到第几范式？并说明理由。\n\n4. 将 R 规范到 3NF。",
+    "answer": "标准答案：\n\n6. 候选码：(教师号, 项目名称)。\n\n7. 范式分析：最高达到 1NF。因为存在部分函数依赖，例如 项目名称 -> 项目类别，这只依赖于候选码的一部分（项目名称），不满足 2NF 定义。\n\n8. 规范化至 3NF：\n\n9. 分解为：\n\n10. R1(教师号, 项目名称, 科研工作量) // 满足 3NF\n\n11. R2(项目名称, 项目类别, 负责人, 项目金额) // 满足 3NF",
+    "chapter": "第五章 关系数据理论",
+    "conceptKeys": [
+      "第三范式",
+      "关系模型",
+      "第一范式"
+    ],
+    "explanation": "函数依赖分析用于确定候选码及范式级别。若存在部分函数依赖（即非主属性依赖于候选码的一部分），则不满足2NF；消除部分依赖后可进一步规范至3NF。"
+  },
+  {
+    "id": 225,
+    "type": "short",
+    "question": "1. 并发控制题\n题目： 在银行系统中，客户 A 和 B 同时向账户 C 转账，若数据库无并发控制机制，可能出现什么问题？如何解决？",
+    "answer": "标准答案：\n\n3. 问题：丢失更新（Lost Update）。例如 C 初始余额 100，A 转",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "数据操纵",
+      "并发控制",
+      "DB"
+    ],
+    "explanation": "无并发控制可能引发丢失更新、脏读或不可重复读等异常。使用排他锁、乐观锁或提高事务隔离级别可以有效避免这些问题。"
+  },
+  {
+    "id": 226,
+    "type": "short",
+    "question": "1. B 转 30，若同时读取并写入，可能导致最终余额仅 130 或 150，丢失了一笔转账更新。\n\n2. 解决办法：\n\n3. 悲观锁：在读取时对账户 C 加排他锁（X 锁），直到事务提交。\n\n4. 乐观锁：增加版本号控制，更新时检查版本是否发生变化。\n\n5. 事务隔离级别：将隔离级别设置为 Serializable（串行化）。\n\n6. 原子更新语句：使用 UPDATE account SET balance = balance + 50 WHERE id = 'C'，利用数据库原子性直接更新。",
+    "answer": "",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "数据操纵",
+      "原子性",
+      "事务"
+    ],
+    "explanation": "接上题，确保并发安全的关键是将事务串行化，或者在执行更新操作时依赖数据库的原子更新能力及锁机制。"
+  },
+  {
+    "id": 227,
+    "type": "choice",
+    "question": "实现将现实世界抽象为信息世界的是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "物理模型 |"
+      },
+      {
+        "label": "B",
+        "text": "概念模型 |"
+      },
+      {
+        "label": "C",
+        "text": "关系模型 |"
+      },
+      {
+        "label": "D",
+        "text": "逻辑模型"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "概念模型",
+      "逻辑模型"
+    ],
+    "explanation": "概念模型（如E-R模型）是将现实世界的客观实体及其联系抽象为信息世界模型的核心工具。"
+  },
+  {
+    "id": 228,
+    "type": "choice",
+    "question": "能够保证数据库系统中的数据具有较高的逻辑独立性的是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "外模式/模式映像 |"
+      },
+      {
+        "label": "B",
+        "text": "模式 |"
+      },
+      {
+        "label": "C",
+        "text": "模式/内模式映像 |"
+      },
+      {
+        "label": "D",
+        "text": "外模式"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据独立",
+      "三级模式",
+      "DBS"
+    ],
+    "explanation": "外模式/模式映像保证了数据的逻辑独立性；模式/内模式映像保证了数据的物理独立性。"
+  },
+  {
+    "id": 229,
+    "type": "choice",
+    "question": "DBMS是一类系统软件，它是建立在下列哪种操作系统之上的（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "应用系统 |"
+      },
+      {
+        "label": "B",
+        "text": "编译系统 |"
+      },
+      {
+        "label": "C",
+        "text": "操作系统 |"
+      },
+      {
+        "label": "D",
+        "text": "硬件系统"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "DB",
+      "属性"
+    ],
+    "explanation": "DBMS 是一种位于用户与操作系统之间的大型系统软件，它必须依赖底层操作系统来管理硬件资源。"
+  },
+  {
+    "id": 230,
+    "type": "choice",
+    "question": "存取存储在计算机内，有组织的、可共享的大量数据的结合是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据 |"
+      },
+      {
+        "label": "B",
+        "text": "数据库 |"
+      },
+      {
+        "label": "C",
+        "text": "数据库管理系统 |"
+      },
+      {
+        "label": "D",
+        "text": "数据库系统"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DBMS",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "数据库（DB）是指长期存储在计算机内、有组织、可共享的大量数据的集合。"
+  },
+  {
+    "id": 231,
+    "type": "choice",
+    "question": "关于关系模型，下列叙述不正确的是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个关系至少要有一个候选码 |"
+      },
+      {
+        "label": "B",
+        "text": "列的次序可以任意交换 |"
+      },
+      {
+        "label": "C",
+        "text": "行的次序可以任意交换 |"
+      },
+      {
+        "label": "D",
+        "text": "一个列的值可以来自不同的域"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "候选码",
+      "元组"
+    ],
+    "explanation": "关系模型中，任何关系都必须是一个二维表，且表中的每一个属性值必须是原子的（不可再分），但二维表不一定就是关系。"
+  },
+  {
+    "id": 232,
+    "type": "choice",
+    "question": "关系操作中，操作的对象和结果都是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "记录 |"
+      },
+      {
+        "label": "B",
+        "text": "集合 |"
+      },
+      {
+        "label": "C",
+        "text": "元组 |"
+      },
+      {
+        "label": "D",
+        "text": "列"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "元组",
+      "属性"
+    ],
+    "explanation": "关系模型基于关系代数，关系代数中任何操作的输入是关系，输出的结果也是一个关系。"
+  },
+  {
+    "id": 233,
+    "type": "choice",
+    "question": "有两个关系R(A, B, C)和S(B, C, D)，将R和S进行自然连接，得到的结果包含（ ）个列。",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 |"
+      },
+      {
+        "label": "B",
+        "text": "4 |"
+      },
+      {
+        "label": "C",
+        "text": "5 |"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "自然连接",
+      "元组"
+    ],
+    "explanation": "自然连接是在等值连接的基础上，去除了重复的公共属性列。因此若R和S有一个公共列，结果列数等于两者的列数之和减1。"
+  },
+  {
+    "id": 234,
+    "type": "choice",
+    "question": "关于SQL语言，下列说法正确的是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据控制功能不是SQL语言的功能之一 |"
+      },
+      {
+        "label": "B",
+        "text": "SQL 采用的是面向记录的操作方式 |"
+      },
+      {
+        "label": "C",
+        "text": "SQL 是非过程化的语言，用户无需指定存取路径 |"
+      },
+      {
+        "label": "D",
+        "text": "SQL 作为嵌入式语言语法与独立的语言有较大差别"
+      }
+    ],
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "数据控制",
+      "属性",
+      "元组"
+    ],
+    "explanation": "SQL（Structured Query Language）是一种高度非过程化的语言，用户只需说明“做什么”，而无需说明“怎么做”。"
+  },
+  {
+    "id": 235,
+    "type": "choice",
+    "question": "视图是数据库系统三级模式中的（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "外模式 |"
+      },
+      {
+        "label": "B",
+        "text": "模式 |"
+      },
+      {
+        "label": "C",
+        "text": "内模式 |"
+      },
+      {
+        "label": "D",
+        "text": "模式映像"
+      }
+    ],
+    "chapter": "第三章 SQL语言",
+    "conceptKeys": [
+      "三级模式",
+      "DBS",
+      "DB"
+    ],
+    "explanation": "视图（View）是基于一个或多个基本表导出的虚表，它对应于数据库系统三级模式中的外模式（子模式）。"
+  },
+  {
+    "id": 236,
+    "type": "choice",
+    "question": "在强制存取控制机制中，当主体的许可证级别等于客体的密级时，主体可以对客体进行如下操作（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "读取 |"
+      },
+      {
+        "label": "B",
+        "text": "写入 |"
+      },
+      {
+        "label": "C",
+        "text": "不可操作 |"
+      },
+      {
+        "label": "D",
+        "text": "读取、写入"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "元组"
+    ],
+    "explanation": "在强制存取控制（MAC）中，遵循“向下读、向上写”的原则。当主体与客体密级相同时，一般可以进行读写操作。"
+  },
+  {
+    "id": 237,
+    "type": "choice",
+    "question": "根据应用需求建立索引是在下列哪个阶段完成（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库概念结构设计 |"
+      },
+      {
+        "label": "B",
+        "text": "数据库逻辑结构设计 |"
+      },
+      {
+        "label": "C",
+        "text": "数据库物理设计 |"
+      },
+      {
+        "label": "D",
+        "text": "数据库实施和维护"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "概念模型",
+      "索引",
+      "DB"
+    ],
+    "explanation": "建立索引是确定数据在物理介质上如何存储和检索的过程，因此属于数据库物理设计阶段的任务。"
+  },
+  {
+    "id": 238,
+    "type": "choice",
+    "question": "下列模型中，广泛采用E-R模型设计方法的是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "逻辑模型 |"
+      },
+      {
+        "label": "B",
+        "text": "概念模型 |"
+      },
+      {
+        "label": "C",
+        "text": "物理模型 |"
+      },
+      {
+        "label": "D",
+        "text": "外模型"
+      }
+    ],
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "E-R模型",
+      "概念模型",
+      "逻辑模型"
+    ],
+    "explanation": "E-R模型（实体-联系模型）直观清晰，广泛用于数据库设计的概念结构设计阶段。"
+  },
+  {
+    "id": 239,
+    "type": "choice",
+    "question": "如果移去某个属性，它仍然是这个关系的码，则称之为（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "全码 |"
+      },
+      {
+        "label": "B",
+        "text": "超码 |"
+      },
+      {
+        "label": "C",
+        "text": "候选码 |"
+      },
+      {
+        "label": "D",
+        "text": "主码"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "关系模型",
+      "候选码",
+      "主码"
+    ],
+    "explanation": "如果一个属性集合中移去某个属性后仍然是码，说明原集合包含了多余属性，这种包含了候选码的超集称为超码。"
+  },
+  {
+    "id": 240,
+    "type": "choice",
+    "question": "一个关系的候选码或候选键是这个关系的（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "最小超码 |"
+      },
+      {
+        "label": "B",
+        "text": "最大超键 |"
+      },
+      {
+        "label": "C",
+        "text": "主码 |"
+      },
+      {
+        "label": "D",
+        "text": "主键"
+      }
+    ],
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "候选码",
+      "主码"
+    ],
+    "explanation": "候选码是能够唯一标识一个元组的最简属性组合，即其任何真子集都不能作为码。"
+  },
+  {
+    "id": 241,
+    "type": "choice",
+    "question": "数据库设计中反映用户对数据要求的模式是（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "外模式 |"
+      },
+      {
+        "label": "B",
+        "text": "概念模式 |"
+      },
+      {
+        "label": "C",
+        "text": "设计模式 |"
+      },
+      {
+        "label": "D",
+        "text": "内模式"
+      }
+    ],
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "三级模式",
+      "DB"
+    ],
+    "explanation": "外模式是用户看到的局部数据的逻辑结构和特征的描述，直接反映了用户的应用需求。"
+  },
+  {
+    "id": 242,
+    "type": "choice",
+    "question": "对关系数据库的检索操作可由三种基本关系运算组合而成，这三种基本关系运算不包括（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "比较 |"
+      },
+      {
+        "label": "B",
+        "text": "选择 |"
+      },
+      {
+        "label": "C",
+        "text": "连接 |"
+      },
+      {
+        "label": "D",
+        "text": "投影"
+      }
+    ],
+    "chapter": "第二章 关系数据库",
+    "conceptKeys": [
+      "关系模型",
+      "选择",
+      "DB"
+    ],
+    "explanation": "关系代数的五种基本运算是：并、差、笛卡尔积、投影和选择。其他运算（如连接、交、除）可由基本运算导出。"
+  },
+  {
+    "id": 243,
+    "type": "choice",
+    "question": "数据字典是软件需求分析阶段的最重要的工具之一，其最基本的功能是（ ）",
+    "answer": "C",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据维护 |"
+      },
+      {
+        "label": "B",
+        "text": "数据通讯 |"
+      },
+      {
+        "label": "C",
+        "text": "数据定义 |"
+      },
+      {
+        "label": "D",
+        "text": "数据库设计"
+      }
+    ],
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "数据定义",
+      "DB"
+    ],
+    "explanation": "数据字典主要用于集中存储和管理有关数据的结构、属性、流向等元数据信息，是需求分析和数据库设计的重要基础。"
+  },
+  {
+    "id": 244,
+    "type": "choice",
+    "question": "关于数据模型的描述，以下选项中错误的是（ ）",
+    "answer": "D",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据模型按不同应用层次分为三种类型：概念、逻辑、物理 |"
+      },
+      {
+        "label": "B",
+        "text": "数据是现实世界符号的抽象 |"
+      },
+      {
+        "label": "C",
+        "text": "数据模型包含数据结构、操作、约束 |"
+      },
+      {
+        "label": "D",
+        "text": "数据库中的数据模型可以将物理世界的要求反映到现实世界"
+      }
+    ],
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "数据模型包括数据结构、数据操作和完整性约束三部分。不同数据模型的主要区别往往在于数据结构的不同。"
+  },
+  {
+    "id": 245,
+    "type": "choice",
+    "question": "关于数据库管理员的描述，以下选项中错误的是（ ）",
+    "answer": "B",
+    "options": [
+      {
+        "label": "A",
+        "text": "规划设计与集成 |"
+      },
+      {
+        "label": "B",
+        "text": "数据库管理员不需要做数据库设计 |"
+      },
+      {
+        "label": "C",
+        "text": "维护、安全性完整性管理 |"
+      },
+      {
+        "label": "D",
+        "text": "规划设计维护监视"
+      }
+    ],
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "DBA 的核心职责是管理和维护数据库系统，这包括了参与数据库的逻辑和物理设计。"
+  },
+  {
+    "id": 246,
+    "type": "choice",
+    "question": "关于数据库设计，以下选项中描述错误的是（ ）",
+    "answer": "D（原题意指出顺序错误）",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据库设计基本任务是设计数据模式 |"
+      },
+      {
+        "label": "B",
+        "text": "采用生命周期法 |"
+      },
+      {
+        "label": "C",
+        "text": "四个阶段为需求分析、概念设计、逻辑设计、物理设计"
+      }
+    ],
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "数据库设计的标准流程是：需求分析、概念设计（E-R图）、逻辑设计（关系模式）和物理设计。需求分析是第一步。"
+  },
+  {
+    "id": 247,
+    "type": "choice",
+    "question": "数据库需求分析时，数据字典的含义是（ ）",
+    "answer": "D（数据库中所涉及的数据流、数据项和文件等描述的集合）",
+    "chapter": "第七章 数据库设计",
+    "conceptKeys": [
+      "DB"
+    ],
+    "explanation": "数据字典是对系统中各类数据元素、数据流、数据存储和处理过程的详细描述和定义。"
+  },
+  {
+    "id": 248,
+    "type": "choice",
+    "question": "某个事务永远处于等待状态，而得不到执行的现象称为（ ）",
+    "answer": "A",
+    "options": [
+      {
+        "label": "A",
+        "text": "死锁 |"
+      },
+      {
+        "label": "B",
+        "text": "活锁 |"
+      },
+      {
+        "label": "C",
+        "text": "串行调度 |"
+      },
+      {
+        "label": "D",
+        "text": "不可串行调度"
+      }
+    ],
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "事务",
+      "元组",
+      "死锁"
+    ],
+    "explanation": "在并发控制中，如果一个事务因为互相等待锁而永远无法获得所需资源，这种现象称为死锁。如果是因调度策略导致一直得不到执行，则称为饿死（饥饿）。"
+  },
+  {
+    "id": 249,
+    "type": "short",
+    "question": "1. 登记日志文件为什么必须先写日志文件，后写数据库？",
+    "answer": "答案要点：这是预写日志（WAL）协议。为了保证事务的持久性和数据的一致性，在修改数据之前，必须先将操作记录到日志文件中。这样在系统崩溃时，可以通过日志重做或回滚操作进行数据恢复，确保数据不会丢失或处于不一致状态。",
+    "chapter": "第十章 事务与并发控制",
+    "conceptKeys": [
+      "数据操纵",
+      "持久性",
+      "一致性"
+    ],
+    "explanation": "预写日志（Write-Ahead Logging, WAL）协议确保了在数据写入磁盘前，相关的修改日志已安全落盘，从而为故障恢复提供依据。"
+  },
+  {
+    "id": 250,
+    "type": "short",
+    "question": "1. 为什么数据库系统具有数据与程序的独立性？",
+    "answer": "答案要点：通过数据库的三级模式（外模式、模式、内模式）和二级映像（外模式/模式、模式/内模式）实现了独立性。当物理存储或逻辑结构发生变化时，只需修改相应的映像，而不必改动应用程序，从而降低了耦合度。",
+    "chapter": "第一章 绪论与基础",
+    "conceptKeys": [
+      "数据操纵",
+      "三级模式",
+      "DBS"
+    ],
+    "explanation": "数据库系统的三级模式和两级映像机制，通过层层映射解耦了应用程序与数据的物理存储及逻辑结构，从而实现了高度的数据独立性。"
+  },
+  {
+    "type": "tf",
+    "question": "Order by 子句仅对检索数据的显示有影响，并不改变表中行的内部顺序。",
+    "answer": "正确",
+    "difficulty": "C",
+    "chapter": "综合",
+    "id": 251,
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。"
+  },
+  {
+    "type": "tf",
+    "question": "一个表空间可以含有多个数据文件，一个数据文件也可以跨多个表空间。",
+    "answer": "错误，一个数据文件只能对应一个表空间",
+    "difficulty": "C",
+    "chapter": "综合",
+    "id": 252,
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。"
+  },
+  {
+    "type": "sql",
+    "question": "【背景信息：Company数据库模式】\n(假设存在 employees 等公司相关表)\n\n【题目】:\n8000.00。正确代码:SQLUSE company;\n\n7000.00的员工信息。正确代码:SQLUSE company;",
+    "answer": "(253): \nUPDATE employees\n\n(254): \nSELECT *",
+    "difficulty": "C",
+    "chapter": "综合",
+    "id": 253,
+    "conceptKeys": [
+      "SQL语言",
+      "数据操纵"
+    ],
+    "explanation": "本题考查SQL语句的使用，需掌握基本的数据定义(DDL)与数据操纵(DML)语法。"
+  },
+  {
+    "type": "sql",
+    "question": "【背景信息：SPGY数据库模式】\n有如下3个关系表：\nS (Sno, Sname, City)  // 商店（商店号，商店名，所在城市）\nP (Pno, Pname, Price) // 商品（商品号，商品名，价格）\nSP (Sno, Pno, QTY)    // 销售（商店号，商品号，数量）\n\n【题目】:\n3. 检索没有商品名称为 bag 的库存记录的商店编号。SQLUSE SPGY;\n\n4. 查询库存总金额大于50000的商店编号和库存总金额。SQLUSE SPGY;\n\n5. 将一个新商店信息插入S表中。商店编号 S1，所在城市 Changsha，商店名称 Tongcheng Store。SQLUSE SPGY;",
+    "answer": "(255): \nSELECT Sno\n\n(256): \nSELECT SP.Sno, SUM(SP.QTY * P.Price) AS inventory\n\n(257): \nINSERT INTO S (Sno, Sname, City)",
+    "difficulty": "C",
+    "chapter": "综合",
+    "id": 255,
+    "conceptKeys": [
+      "SQL语言",
+      "数据操纵"
+    ],
+    "explanation": "本题考查SQL语句的使用，需掌握基本的数据定义(DDL)与数据操纵(DML)语法。"
+  },
+  {
+    "type": "sql",
+    "question": "【背景信息：学生选课管理系统(students/courses/grades)】\n设有如下关系表：\nstudents (student_id, student_name, gender, major) // 学生表\ncourses (course_id, course_name)                   // 课程表\ngrades (student_id, course_id, grade)              // 成绩表\n\n【题目】:\n1. 更新数据 (修改表结构/数据)\n\n2. 多条件查询\n\n3. 分组统计专业人数\n\n4. 多表联合查询\n\n5. 聚合函数极值查询",
+    "answer": "(258): \nUPDATE students SET major = '统计学' WHERE student_id = 2;\n\n(259): \nSELECT * FROM students WHERE gender = '男' AND major = '计算机科学';\n\n(260): \nSELECT major, COUNT(student_id) AS student_count\n\n(261): \nSELECT s.student_name, c.course_name, g.grade\n\n(262): \nSELECT student_id, MAX(grade), MIN(grade)",
+    "difficulty": "C",
+    "chapter": "综合",
+    "id": 258,
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。"
+  },
+  {
+    "id": 263,
+    "question": "1、关系模型和层次的数据结构分别是【填空1】和【填空2】。",
+    "answer": "二维表、有向树   难度系数: C",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 264,
+    "question": "1、数据库管理系统的主要功能？",
+    "answer": "数据库管理系统(DBMS)是位于操作系统",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 265,
+    "question": "1、数据库系统的基本特征是（ ）",
+    "answer": "C",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据的统一控制"
+      },
+      {
+        "label": "B",
+        "text": "数据共享性和统一控制"
+      },
+      {
+        "label": "C",
+        "text": "数据共享性、独立性和冗余度小"
+      },
+      {
+        "label": "D",
+        "text": "数据共享性和数据独立性"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "question": "3、设有关系R和S，关系代数R-(R-S) 表示的是（ ）",
+    "answer": "A",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "R∩S"
+      },
+      {
+        "label": "B",
+        "text": "R-S"
+      },
+      {
+        "label": "C",
+        "text": "R÷S"
+      },
+      {
+        "label": "D",
+        "text": "R∪S"
+      }
+    ],
+    "image": "/images/q_266.jpeg"
+  },
+  {
+    "id": 267,
+    "question": "6、构成E-R模型的三个基本要素是（ ）",
+    "answer": "B",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "概念模型",
+      "E-R图"
+    ],
+    "explanation": "本题考查概念结构设计中的E-R模型，实体、属性和联系是E-R图的三大基本要素。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "实体、属性值、关系"
+      },
+      {
+        "label": "B",
+        "text": "实体、属性、联系"
+      },
+      {
+        "label": "C",
+        "text": "实体、实体集、联系"
+      },
+      {
+        "label": "D",
+        "text": "实体、实体集、属性"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "question": "8、在下列关于规范化理论的叙述中，不正确的是（ ）",
+    "answer": "D",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "关系数据理论",
+      "规范化范式"
+    ],
+    "explanation": "本题考查数据库规范化理论，了解不同范式（1NF, 2NF, 3NF, BCNF）的定义及消除的依赖关系是解题关键。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "任何一个关系模式一定有键。"
+      },
+      {
+        "label": "B",
+        "text": "任何一个包含两个属性的关系模式一定满足3NF。"
+      },
+      {
+        "label": "C",
+        "text": "任何一个包含两个属性的关系模式一定满足BCNF。"
+      },
+      {
+        "label": "D",
+        "text": "任何一个包含三个属性的关系模式一定满足2NF。"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "question": "10、SQL的视图是从（ ）中导出的。",
+    "answer": "D",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "SQL语言",
+      "数据操纵"
+    ],
+    "explanation": "本题考查SQL语句的使用，需掌握基本的数据定义(DDL)与数据操纵(DML)语法。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "基本表"
+      },
+      {
+        "label": "B",
+        "text": "视图"
+      },
+      {
+        "label": "C",
+        "text": "数据库"
+      },
+      {
+        "label": "D",
+        "text": "基本表或视图"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "question": "12、SQL语言中，条件年龄 BETWEEN 18 AND 30表示年龄在18至30之间，且（ ）",
+    "answer": "B",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "SQL语言",
+      "数据操纵"
+    ],
+    "explanation": "本题考查SQL语句的使用，需掌握基本的数据定义(DDL)与数据操纵(DML)语法。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "包括30岁但不包括18岁"
+      },
+      {
+        "label": "B",
+        "text": "包括18岁和30岁"
+      },
+      {
+        "label": "C",
+        "text": "包括18岁但不包括30岁"
+      },
+      {
+        "label": "D",
+        "text": "不包括18岁和30岁"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "question": "13、允许取空值但不允许出现重复值的约束是（ ）",
+    "answer": "C",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "NULL"
+      },
+      {
+        "label": "B",
+        "text": "PRIMARY KEY"
+      },
+      {
+        "label": "C",
+        "text": "UNIQUE"
+      },
+      {
+        "label": "D",
+        "text": "FOREIGN KEY"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "question": "20、下面关于关系数据库范式的描述中，错误的是（ ）A) 关系满足的范式越低，则更新操作的代价就越高B) 关系满足的范式越高，则更新操作的代价就越低C) 关系满足的范式越高，则查询操作的代价就越高D) 关系满足的范式越低，则查询操作的代价就越高",
+    "answer": "D难度系数: A二、填空题（共 11 题",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "关系数据理论",
+      "规范化范式"
+    ],
+    "explanation": "本题考查数据库规范化理论，了解不同范式（1NF, 2NF, 3NF, BCNF）的定义及消除的依赖关系是解题关键。",
+    "type": "short"
+  },
+  {
+    "id": 273,
+    "question": "1、关系模型和网状模型的数据结构分别是【填空1】和【填空2】。",
+    "answer": "二维表、有向图难度系数: B2、数据模型",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 274,
+    "question": "4、删除基本表用【填空1】语句，删除基本表的元组用【填空2】语句。",
+    "answer": "ALTER、UPDATE (注：原卷答案",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 275,
+    "question": "6、事务的特性有：【填空1】、原子性、【填空2】和持久性。",
+    "answer": "一致性、隔离性难度系数: C7、当对视图",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "事务管理",
+      "并发控制"
+    ],
+    "explanation": "本题考查事务的ACID特性或并发控制机制（如封锁协议），目的是保证数据一致性。",
+    "type": "short"
+  },
+  {
+    "id": 276,
+    "question": "9、在关系数据库规范畴内，【填空1】范式达到了最高的规范化程度。",
+    "answer": "BC范式难度系数: B10、在关系数据库",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "关系数据理论",
+      "规范化范式"
+    ],
+    "explanation": "本题考查数据库规范化理论，了解不同范式（1NF, 2NF, 3NF, BCNF）的定义及消除的依赖关系是解题关键。",
+    "type": "short"
+  },
+  {
+    "id": 277,
+    "question": "1、数据库系统中有哪三层模式结构？采用三层模式结构有什么好处？",
+    "answer": "数据库系统三级模式结构是指数据库系统是由",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 278,
+    "question": "2、什么是数据库的安全性？DBMS有哪些安全性措施？",
+    "answer": "数据库的安全性是保护数据库以防止不合法使",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 279,
+    "question": "16、函数依赖可根据不同性质进行分类，不包括（ ）",
+    "answer": "A",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "随机函数依赖"
+      },
+      {
+        "label": "B",
+        "text": "完全函数依赖"
+      },
+      {
+        "label": "C",
+        "text": "部分函数依赖"
+      },
+      {
+        "label": "D",
+        "text": "传递函数依赖"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "question": "17、如果 $X \\rightarrow Y$, $Y \\rightarrow A$，且不能函数确定X，$A \\notin Y$，那么称 $X \\rightarrow A$ 是（ ）",
+    "answer": "B",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "平凡函数依赖"
+      },
+      {
+        "label": "B",
+        "text": "传递依赖"
+      },
+      {
+        "label": "C",
+        "text": "局部依赖"
+      },
+      {
+        "label": "D",
+        "text": "完全依赖"
+      }
+    ],
+    "image": "/images/q_280.jpeg"
+  },
+  {
+    "id": 281,
+    "question": "18、关系模式中满足2NF的模式（ ）",
+    "answer": "B",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "关系数据理论",
+      "规范化范式"
+    ],
+    "explanation": "本题考查数据库规范化理论，了解不同范式（1NF, 2NF, 3NF, BCNF）的定义及消除的依赖关系是解题关键。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "可能是1NF"
+      },
+      {
+        "label": "B",
+        "text": "必定是1NF"
+      },
+      {
+        "label": "C",
+        "text": "必定是3NF"
+      },
+      {
+        "label": "D",
+        "text": "必定是BCNF"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "question": "19、员工性别的取值，有的为“男”、“女”，有的为“1”、“0”。这种情况属于（ ）",
+    "answer": "A",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "属性冲突"
+      },
+      {
+        "label": "B",
+        "text": "命名冲突"
+      },
+      {
+        "label": "C",
+        "text": "结构冲突"
+      },
+      {
+        "label": "D",
+        "text": "数据冗余"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "question": "11、主键被强制定义成NOT NULL和UNIQUE。",
+    "answer": "正确难度系数: 常规12、在任何一个关系",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short",
+    "image": "/images/q_283.jpeg"
+  },
+  {
+    "id": 284,
+    "question": "12、在任何一个关系数据库中，第一范式(1NF)是对关系模式的基本要求，不满足第一范式(1NF)的数据库就不是关系数据库。",
+    "answer": "正确难度系数: 常规13、为数据表创建索",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "关系数据理论",
+      "规范化范式"
+    ],
+    "explanation": "本题考查数据库规范化理论，了解不同范式（1NF, 2NF, 3NF, BCNF）的定义及消除的依赖关系是解题关键。",
+    "type": "short"
+  },
+  {
+    "id": 285,
+    "question": "13、为数据表创建索引的目的是提高查询的检索性能。",
+    "answer": "正确难度系数: 常规14、同一个关系模型",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 286,
+    "question": "14、同一个关系模型中可以出现值完全相同的两个元组。",
+    "answer": "错误 （关系是元组的集合，集合中不允许有",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 287,
+    "question": "15、产生系统死锁的原因可能是由于多个进程竞争，资源出现了循环等待。",
+    "answer": "正确难度系数: 常规16、Order b",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "事务管理",
+      "并发控制"
+    ],
+    "explanation": "本题考查事务的ACID特性或并发控制机制（如封锁协议），目的是保证数据一致性。",
+    "type": "short"
+  },
+  {
+    "id": 288,
+    "question": "16、Order by 子句仅对检索数据的显示有影响，并不改变表中行的内部顺序。",
+    "answer": "正确难度系数: 常规17、一个表空间可以",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 289,
+    "question": "17、一个表空间可以含有多个数据文件，一个数据文件也可以跨多个表空间，一个表不可以跨表空间。",
+    "answer": "错误 （一个数据文件只能属于一个特定的表",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 290,
+    "question": "18、关系代数中五种基本运算是并、差、选择、投影、连接。",
+    "answer": "错误 （五种基本运算是并、差、笛卡尔积、",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 291,
+    "question": "11、数据库的外模式可以有一个或多个。",
+    "answer": "正确   12、数据管理技术经历了人工管",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 292,
+    "question": "16、函数依赖可根据不同性质进行分类，不包括（ ）",
+    "answer": "A",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "随机函数依赖"
+      },
+      {
+        "label": "B",
+        "text": "完全函数依赖"
+      },
+      {
+        "label": "C",
+        "text": "部分函数依赖"
+      },
+      {
+        "label": "D",
+        "text": "传递函数依赖"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "question": "17、如果 $X \\rightarrow Y$, $Y \\rightarrow A$，且不能函数确定 $X$，$A \\notin Y$，那么称 $X \\rightarrow A$ 是（ ）",
+    "answer": "B",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "平凡函数依赖"
+      },
+      {
+        "label": "B",
+        "text": "传递依赖"
+      },
+      {
+        "label": "C",
+        "text": "局部依赖"
+      },
+      {
+        "label": "D",
+        "text": "完全依赖"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "question": "18、关系模式中满足2NF的模式（ ）",
+    "answer": "B",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "关系数据理论",
+      "规范化范式"
+    ],
+    "explanation": "本题考查数据库规范化理论，了解不同范式（1NF, 2NF, 3NF, BCNF）的定义及消除的依赖关系是解题关键。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "可能是1NF"
+      },
+      {
+        "label": "B",
+        "text": "必定是1NF"
+      },
+      {
+        "label": "C",
+        "text": "必定是3NF"
+      },
+      {
+        "label": "D",
+        "text": "必定是BCNF"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "question": "19、员工性别的取值，有的为“男”、“女”，有的为“1”、“0”。这种情况属于（ ）",
+    "answer": "A",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "choice",
+    "options": [
+      {
+        "label": "A",
+        "text": "属性冲突"
+      },
+      {
+        "label": "B",
+        "text": "命名冲突"
+      },
+      {
+        "label": "C",
+        "text": "结构冲突"
+      },
+      {
+        "label": "D",
+        "text": "数据冗余"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "question": "6、数据库系统通常通过日志记录和事务回滚来实现故障恢复。",
+    "answer": "正确7、Order by 子句仅对检索数",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "事务管理",
+      "并发控制"
+    ],
+    "explanation": "本题考查事务的ACID特性或并发控制机制（如封锁协议），目的是保证数据一致性。",
+    "type": "short"
+  },
+  {
+    "id": 297,
+    "question": "7、Order by 子句仅对检索数据的显示有影响，并不改变表中行的内部顺序。",
+    "answer": "正确8、一个表空间可以含有多个数据文件，",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  },
+  {
+    "id": 298,
+    "question": "8、一个表空间可以含有多个数据文件，一个数据文件也可以跨多个表空间。",
+    "answer": "错误（一个数据文件只能对应一个表空间）三",
+    "difficulty": "C",
+    "chapter": "综合知识",
+    "conceptKeys": [
+      "数据库基础",
+      "综合应用"
+    ],
+    "explanation": "本题综合考查数据库系统的基础知识和基本原理，要求熟练掌握数据模型和相关特性。",
+    "type": "short"
+  }
+]
